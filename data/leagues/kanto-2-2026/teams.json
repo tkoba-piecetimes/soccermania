@@ -1,0 +1,62 @@
+{
+ "拓殖大学": {
+  "team": "拓殖大学",
+  "slug": "takushoku",
+  "block": "総合"
+ },
+ "産業能率大学": {
+  "team": "産業能率大学",
+  "slug": "sangyo-noritsu",
+  "block": "総合"
+ },
+ "神奈川大学": {
+  "team": "神奈川大学",
+  "slug": "kanagawa",
+  "block": "総合"
+ },
+ "立正大学": {
+  "team": "立正大学",
+  "slug": "rissho",
+  "block": "総合"
+ },
+ "明治学院大学": {
+  "team": "明治学院大学",
+  "slug": "meiji-gakuin",
+  "block": "総合"
+ },
+ "関東学院大学": {
+  "team": "関東学院大学",
+  "slug": "kanto-gakuin",
+  "block": "総合"
+ },
+ "城西大学": {
+  "team": "城西大学",
+  "slug": "josai",
+  "block": "総合"
+ },
+ "東京国際大学": {
+  "team": "東京国際大学",
+  "slug": "tokyo-kokusai",
+  "block": "総合"
+ },
+ "専修大学": {
+  "team": "専修大学",
+  "slug": "senshu",
+  "block": "総合"
+ },
+ "慶應義塾大学": {
+  "team": "慶應義塾大学",
+  "slug": "keio",
+  "block": "総合"
+ },
+ "立教大学": {
+  "team": "立教大学",
+  "slug": "rikkyo",
+  "block": "総合"
+ },
+ "流通経済大学": {
+  "team": "流通経済大学",
+  "slug": "ryutsu-keizai",
+  "block": "総合"
+ }
+}

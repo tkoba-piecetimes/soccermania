@@ -29,11 +29,12 @@ SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=soccermania&utm_medium=referr
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 LEAGUE_ORDER = [
+    "kanto-1-2026", "kanto-2-2026",
     "kansai-1-2026", "kansai-2-2026",
     "tohoku-1-2026", "tohoku-2-2026",
     "hokushinetsu-1-2026", "hokushinetsu-2-2026",
 ]
-REGION_ORDER = ["関西", "東北", "北信越"]
+REGION_ORDER = ["関東", "関西", "東北", "北信越"]
 RECORDS_MIN_PLAYED = 30  # 記録室を生成する最低試合数（データが薄いリーグは非表示）
 
 _sitemap_paths: list[str] = []
@@ -550,7 +551,7 @@ def build_league(lg, articles):
     for block, entries in standings.items():
         if entries:
             body += standings_table(block, entries, L)
-    body += '<p class="note">※順位・勝ち点は勝ち点3・分け1・敗け0の集計です。関西学生サッカー連盟は公式順位表、東北・北信越は試合結果から編集部が算出した参考値です。公式発表は各連盟の発表をご確認ください。</p>'
+    body += '<p class="note">※順位・勝ち点は勝ち点3・分け1・敗け0の集計です。関西学生サッカー連盟は公式順位表、関東・東北・北信越は試合結果から編集部が算出した参考値です。公式発表は各連盟の発表をご確認ください。</p>'
     write_page(f"{code}/standings",
                page(R, f'順位表 | {league_name} | サッカーマニア', body, meta,
                     path=f"{code}/standings/", desc=f'{league_name}の順位表。勝点・得失点差を毎日更新。',

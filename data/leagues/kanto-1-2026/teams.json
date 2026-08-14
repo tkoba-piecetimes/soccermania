@@ -1,0 +1,62 @@
+{
+ "早稲田大学": {
+  "team": "早稲田大学",
+  "slug": "waseda",
+  "block": "総合"
+ },
+ "筑波大学": {
+  "team": "筑波大学",
+  "slug": "tsukuba",
+  "block": "総合"
+ },
+ "法政大学": {
+  "team": "法政大学",
+  "slug": "hosei",
+  "block": "総合"
+ },
+ "国士舘大学": {
+  "team": "国士舘大学",
+  "slug": "kokushikan",
+  "block": "総合"
+ },
+ "東海大学": {
+  "team": "東海大学",
+  "slug": "tokai",
+  "block": "総合"
+ },
+ "日本体育大学": {
+  "team": "日本体育大学",
+  "slug": "nittai",
+  "block": "総合"
+ },
+ "中央大学": {
+  "team": "中央大学",
+  "slug": "chuo",
+  "block": "総合"
+ },
+ "桐蔭横浜大学": {
+  "team": "桐蔭横浜大学",
+  "slug": "toin-yokohama",
+  "block": "総合"
+ },
+ "東洋大学": {
+  "team": "東洋大学",
+  "slug": "toyo",
+  "block": "総合"
+ },
+ "日本大学": {
+  "team": "日本大学",
+  "slug": "nihon",
+  "block": "総合"
+ },
+ "駒澤大学": {
+  "team": "駒澤大学",
+  "slug": "komazawa",
+  "block": "総合"
+ },
+ "明治大学": {
+  "team": "明治大学",
+  "slug": "meiji",
+  "block": "総合"
+ }
+}

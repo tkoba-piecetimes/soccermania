@@ -38,6 +38,34 @@ TEAM_SLUGS = {
     "金沢学院大": "kanazawa-gakuin",
     "新潟産業大": "niigata-sangyo",
     "新潟大": "niigata-u",
+
+    # ---- 関東大学サッカーリーグ戦1部（jufa-kanto.jp、「○○大学」のフル表記） ----
+    "早稲田大学": "waseda",
+    "筑波大学": "tsukuba",
+    "法政大学": "hosei",
+    "国士舘大学": "kokushikan",
+    "東海大学": "tokai",
+    "日本体育大学": "nittai",
+    "中央大学": "chuo",
+    "桐蔭横浜大学": "toin-yokohama",
+    "東洋大学": "toyo",
+    "日本大学": "nihon",
+    "駒澤大学": "komazawa",
+    "明治大学": "meiji",
+
+    # ---- 関東大学サッカーリーグ戦2部（jufa-kanto.jp） ----
+    "城西大学": "josai",
+    "専修大学": "senshu",
+    "慶應義塾大学": "keio",
+    "拓殖大学": "takushoku",
+    "明治学院大学": "meiji-gakuin",
+    "東京国際大学": "tokyo-kokusai",
+    "流通経済大学": "ryutsu-keizai",
+    "産業能率大学": "sangyo-noritsu",
+    "神奈川大学": "kanagawa",
+    "立教大学": "rikkyo",
+    "立正大学": "rissho",
+    "関東学院大学": "kanto-gakuin",
 }
 
 _kks = None
