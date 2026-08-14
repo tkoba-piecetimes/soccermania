@@ -32,6 +32,8 @@ jufa-kanto.jp（関東）/ jufa-kansai.jp（関西）/ jfa.jp東北地区（東�
   → pipeline/fetch_kanto.py / fetch_kansai.py / fetch_tohoku.py / fetch_hokushinetsu.py
     ※ pipeline/common.py に共通ロジック（fetch/日付計算/順位集計）を集約
   → data/leagues/<region>-<部>-<年>/
+  → pipeline/generate_articles.py（節レビュー記事を自動生成。1回の実行で最大2件）
+  → content/articles/
   → pipeline/generate_site.py
   → site/
 ```
@@ -45,6 +47,7 @@ jufa-kanto.jp（関東）/ jufa-kansai.jp（関西）/ jfa.jp東北地区（東�
 
 ```
 python pipeline/fetch_all.py
+python pipeline/generate_articles.py
 python pipeline/generate_site.py
 ```
 
@@ -53,12 +56,18 @@ python pipeline/generate_site.py
 
 ローカル確認: `python -m http.server 8941 -d site`
 
+## 読みもの記事（節レビュー・自動生成）
+
+`pipeline/generate_articles.py` が `data/leagues/` の試合結果・順位表から「節レビュー記事」
+（結果テーブル・順位表・チームページへのリンク・出典を含むテンプレート記事。LLM不使用）を
+自動生成し `content/articles/*.md` に書き出す（`generate_site.py` の `load_articles()` が
+読める平文frontmatter形式）。1回の実行につき最大2記事まで（既存slugはスキップ）。
+
+- 関東（節番号が判明している）: slug `review-<league>-sec<NN>`
+- 関西・東北・北信越（節番号がないため開催日でクラスタ化）: slug `review-<league>-<YYYYMMDD>`
+
 ## 未実装（今後）
 
 - 過去シーズンのヒストリーデータ（`data/leagues/<code>/history/`）
-- GA4 / Search Console 連携（`pipeline/generate_site.py` の `GA_MEASUREMENT_ID` /
-  `GSC_VERIFICATION` は現在未設定）
-- 読みもの記事・用語辞典（`content/articles/`, `content/glossary.json` を追加すれば
-  自動で有効化される）
 - 関東: 1節が2日に分割される場合の個別試合日付は本文の試合数表記から推定しており、
   推定できないケースは日付nullで保存される（`pipeline/fetch_kanto.py`のdocstring参照）

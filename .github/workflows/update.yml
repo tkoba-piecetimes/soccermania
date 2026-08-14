@@ -29,8 +29,10 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install pykakasi
-      - name: Fetch soccer data (関西・東北・北信越)
+      - name: Fetch soccer data (関東・関西・東北・北信越)
         run: python pipeline/fetch_all.py
+      - name: Generate articles (節レビュー記事・1回の実行で最大2件)
+        run: python pipeline/generate_articles.py
       - name: Generate site
         run: python pipeline/generate_site.py
       - name: Commit updated data & site
@@ -38,7 +40,7 @@ jobs:
         run: |
           git config user.name "soccermania-bot"
           git config user.email "bot@piecetimes.jp"
-          git add data site
+          git add data content site
           git diff --cached --quiet || git commit -m "chore: auto-update soccer data"
           git push
       - uses: actions/configure-pages@v5
