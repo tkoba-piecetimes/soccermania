@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tkoba-piecetimes.github.io/soccermania/sitemap.xml
+Sitemap: https://soccermania.jp/sitemap.xml

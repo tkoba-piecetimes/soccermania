@@ -22,7 +22,7 @@ SITE = ROOT / "site"
 ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content" / "articles"
 
-SITE_BASE = "https://tkoba-piecetimes.github.io/soccermania/"
+SITE_BASE = "https://soccermania.jp/"
 GA_MEASUREMENT_ID = "G-162E02Q55F"  # 共有GA4プロパティ「ツナカレ部活メディア」
 GSC_VERIFICATION = "0X77J6-cDQak8VJkyt1PGegqMjZwEI2HWAYjkwl3OF0"  # Search Console所有権確認トークン
 SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=soccermania&utm_medium=referral&utm_campaign=sponsor"
