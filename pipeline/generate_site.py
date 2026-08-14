@@ -23,8 +23,8 @@ ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content" / "articles"
 
 SITE_BASE = "https://tkoba-piecetimes.github.io/soccermania/"
-GA_MEASUREMENT_ID = ""
-GSC_VERIFICATION = ""  # Search Console所有権確認トークン（未登録）
+GA_MEASUREMENT_ID = "G-162E02Q55F"  # 共有GA4プロパティ「ツナカレ部活メディア」
+GSC_VERIFICATION = "0X77J6-cDQak8VJkyt1PGegqMjZwEI2HWAYjkwl3OF0"  # Search Console所有権確認トークン
 SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=soccermania&utm_medium=referral&utm_campaign=sponsor"
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
