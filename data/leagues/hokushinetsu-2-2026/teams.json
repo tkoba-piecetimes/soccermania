@@ -1,0 +1,47 @@
+{
+ "金沢星稜大": {
+  "team": "金沢星稜大",
+  "slug": "kanazawaseiryou",
+  "block": "総合"
+ },
+ "富山国際大": {
+  "team": "富山国際大",
+  "slug": "toyamakokusai",
+  "block": "総合"
+ },
+ "福井工業大": {
+  "team": "福井工業大",
+  "slug": "fukuikougyou",
+  "block": "総合"
+ },
+ "福井県立大": {
+  "team": "福井県立大",
+  "slug": "fukuikenritsu",
+  "block": "総合"
+ },
+ "富山大": {
+  "team": "富山大",
+  "slug": "toyama",
+  "block": "総合"
+ },
+ "上越教育大": {
+  "team": "上越教育大",
+  "slug": "jouetsukyouiku",
+  "block": "総合"
+ },
+ "信州大": {
+  "team": "信州大",
+  "slug": "shinshuu",
+  "block": "総合"
+ },
+ "金沢工業大": {
+  "team": "金沢工業大",
+  "slug": "kanazawakougyou",
+  "block": "総合"
+ },
+ "福井大": {
+  "team": "福井大",
+  "slug": "fukui",
+  "block": "総合"
+ }
+}

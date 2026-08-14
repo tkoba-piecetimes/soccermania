@@ -1,0 +1,42 @@
+{
+ "仙台大学": {
+  "team": "仙台大学",
+  "slug": "sendai-u",
+  "block": "総合"
+ },
+ "東日本国際大学": {
+  "team": "東日本国際大学",
+  "slug": "higashinihon-kokusai",
+  "block": "総合"
+ },
+ "富士大学": {
+  "team": "富士大学",
+  "slug": "fuji-u",
+  "block": "総合"
+ },
+ "東北工業大学": {
+  "team": "東北工業大学",
+  "slug": "tohoku-kogyo",
+  "block": "総合"
+ },
+ "八戸学院大学": {
+  "team": "八戸学院大学",
+  "slug": "hachinohe-gakuin",
+  "block": "総合"
+ },
+ "ノースアジア大学": {
+  "team": "ノースアジア大学",
+  "slug": "north-asia",
+  "block": "総合"
+ },
+ "東北学院大学": {
+  "team": "東北学院大学",
+  "slug": "touhokugakuin",
+  "block": "総合"
+ },
+ "東北大学": {
+  "team": "東北大学",
+  "slug": "touhoku",
+  "block": "総合"
+ }
+}

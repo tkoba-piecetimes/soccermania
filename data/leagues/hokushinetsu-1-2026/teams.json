@@ -1,0 +1,42 @@
+{
+ "新潟医療福祉大": {
+  "team": "新潟医療福祉大",
+  "slug": "niigata-iryo-fukushi",
+  "block": "総合"
+ },
+ "金沢大": {
+  "team": "金沢大",
+  "slug": "kanazawa-u",
+  "block": "総合"
+ },
+ "松本大": {
+  "team": "松本大",
+  "slug": "matsumoto",
+  "block": "総合"
+ },
+ "新潟大": {
+  "team": "新潟大",
+  "slug": "niigata-u",
+  "block": "総合"
+ },
+ "新潟経営大": {
+  "team": "新潟経営大",
+  "slug": "niigata-keiei",
+  "block": "総合"
+ },
+ "新潟産業大": {
+  "team": "新潟産業大",
+  "slug": "niigata-sangyo",
+  "block": "総合"
+ },
+ "北陸大": {
+  "team": "北陸大",
+  "slug": "hokuriku",
+  "block": "総合"
+ },
+ "金沢学院大": {
+  "team": "金沢学院大",
+  "slug": "kanazawa-gakuin",
+  "block": "総合"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "関西学院大学": {
+  "team": "関西学院大学",
+  "slug": "kwansei-gakuin",
+  "block": "総合"
+ },
+ "阪南大学": {
+  "team": "阪南大学",
+  "slug": "hannan",
+  "block": "総合"
+ },
+ "甲南大学": {
+  "team": "甲南大学",
+  "slug": "konan",
+  "block": "総合"
+ },
+ "京都産業大学": {
+  "team": "京都産業大学",
+  "slug": "kyoto-sangyo",
+  "block": "総合"
+ },
+ "びわこ成蹊スポーツ大学": {
+  "team": "びわこ成蹊スポーツ大学",
+  "slug": "biwako-seikei",
+  "block": "総合"
+ },
+ "大阪商業大学": {
+  "team": "大阪商業大学",
+  "slug": "osaka-shogyo",
+  "block": "総合"
+ },
+ "大阪学院大学": {
+  "team": "大阪学院大学",
+  "slug": "osaka-gakuin",
+  "block": "総合"
+ },
+ "立命館大学": {
+  "team": "立命館大学",
+  "slug": "ritsumeikan",
+  "block": "総合"
+ },
+ "関西大学": {
+  "team": "関西大学",
+  "slug": "kansai-u",
+  "block": "総合"
+ },
+ "同志社大学": {
+  "team": "同志社大学",
+  "slug": "doshisha",
+  "block": "総合"
+ },
+ "桃山学院大学": {
+  "team": "桃山学院大学",
+  "slug": "momoyama-gakuin",
+  "block": "総合"
+ },
+ "大阪体育大学": {
+  "team": "大阪体育大学",
+  "slug": "osaka-taiiku",
+  "block": "総合"
+ }
+}
