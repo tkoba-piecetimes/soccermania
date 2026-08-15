@@ -32,14 +32,13 @@ TUNAKARE_LISTING_URL = f"https://lp.tunakare.jp/s01/?{UTM_TAIL}listing"
 TUNAKARE_MEDIA_PR_URL = f"https://media.tunakare.jp/contact/student/?{UTM_TAIL}media-pr"
 TUNAKARE_SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{UTM_TAIL}shukatsu"
 TUNAKARE_CAREER_URL = f"https://career.tunakare.jp/?{UTM_TAIL}career"
-TUNAKARE_LINKS_FILE = DATA / "tunakare_links.json"
 
 ARTICLE_CTA_BANDS = {
     # cta値: (見出し, リンク文言, 遷移先, GA4イベント名)
     "shukatsu": ("部活と就活の両立、ひとりで悩まない。", "無料で就活相談する →", TUNAKARE_SHUKATSU_URL, "cv_shukatsu_click"),
     "career": ("体育会出身の転職・キャリア相談はこちら。", "career.tunakareで相談する →", TUNAKARE_CAREER_URL, "cv_career_click"),
     "listing": ("遠征費・運営資金に。協賛募集を無料で掲載できます。", "無料で掲載する →", TUNAKARE_LISTING_URL, "cv_listing_click"),
-    "sponsor": ("この部活・競技を応援したい方へ。", "協賛募集を見る →", TUNAKARE_SPONSOR_SEARCH_URL, "cv_sponsor_click"),
+    "sponsor": ("この部活・競技を応援したい方へ。", "ツナカレで協賛募集中の部活を探す →", TUNAKARE_SPONSOR_SEARCH_URL, "cv_sponsor_click"),
 }
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
@@ -53,7 +52,6 @@ REGION_ORDER = ["関東", "関西", "東北", "北信越"]
 RECORDS_MIN_PLAYED = 30  # 記録室を生成する最低試合数（データが薄いリーグは非表示）
 
 _sitemap_paths: list[str] = []
-_tunakare_links: dict = {}
 
 
 # ---------------------------------------------------------------- data loading
@@ -84,12 +82,6 @@ def load_leagues():
         lg["label"] = lg["meta"]["league"]
         leagues.append(lg)
     return leagues
-
-
-def load_tunakare_links():
-    if TUNAKARE_LINKS_FILE.exists():
-        return json.loads(TUNAKARE_LINKS_FILE.read_text(encoding="utf-8"))
-    return {}
 
 
 def load_articles():
@@ -383,21 +375,16 @@ def pr_link(url, text, event, cta_class="cta"):
             f'<span class="pr-badge">PR</span>{escape(text)}</a>')
 
 
-def sponsor_block(team_slug):
-    """チームページの応援ブロック（D2）。tunakare_links.jsonにマッピングがあれば
-    協賛ページへの直リンク、なければ検索トップ＋掲載無料LPの2導線。
-    「取材してほしい部活を募集」は常に表示する。"""
-    info = _tunakare_links.get(team_slug)
+def sponsor_block():
+    """チームページの応援ブロック（D2改訂版）。全チーム共通の汎用3導線を表示する。
+
+    個別部活への協賛ページ直リンク・団体名表示は行わない（募集中の部活はツナカレに
+    遷移して初めてわかる設計。案件には締切・停止があり静的サイト側に募集状況を持つと
+    管理不能になるため）。
+    """
     parts = ['<section class="sponsor"><h2>この部活を応援する</h2>']
-    if info:
-        url = f'https://tunakare.jp/sponsorship/search/p/{info["sponsorship_slug"]}?{UTM_TAIL}sponsor'
-        label = f'{info["community"]}の協賛募集を見る'
-        parts.append(f'<p>{pr_link(url, label, "cv_sponsor_click")}</p>')
-        if info.get("title"):
-            parts.append(f'<p class="note">{escape(info["title"])}</p>')
-    else:
-        parts.append(f'<p>{pr_link(TUNAKARE_SPONSOR_SEARCH_URL, "応援できる部活を探す", "cv_sponsor_click")}</p>')
-        parts.append(f'<p>{pr_link(TUNAKARE_LISTING_URL, "この部の関係者の方へ: 協賛募集を無料で掲載", "cv_listing_click", "cta cta-sub")}</p>')
+    parts.append(f'<p>{pr_link(TUNAKARE_SPONSOR_SEARCH_URL, "この部活・競技を応援したい方へ: ツナカレで協賛募集中の部活を探す", "cv_sponsor_click")}</p>')
+    parts.append(f'<p>{pr_link(TUNAKARE_LISTING_URL, "この部の関係者の方へ: 協賛募集を無料で掲載", "cv_listing_click", "cta cta-sub")}</p>')
     parts.append(f'<p>{pr_link(TUNAKARE_MEDIA_PR_URL, "取材してほしい部活を募集中", "cv_media_pr_click", "cta cta-sub")}</p>')
     parts.append('</section>')
     return "".join(parts)
@@ -698,7 +685,7 @@ def build_league(lg, articles):
                 for a in articles[:3])
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
-        body += sponsor_block(slug)
+        body += sponsor_block()
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | サッカーマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
@@ -1145,8 +1132,6 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir(parents=True)
     _sitemap_paths.clear()
-    _tunakare_links.clear()
-    _tunakare_links.update(load_tunakare_links())
 
     leagues = load_leagues()
     articles = load_articles()
