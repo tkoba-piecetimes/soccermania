@@ -288,6 +288,7 @@ title: {title}
 description: {description}
 category: {category}
 date: {date}
+cta: sponsor
 ---
 
 {body}
@@ -295,6 +296,8 @@ date: {date}
 
 
 def write_article(c: dict) -> None:
+    # cta: sponsor固定（部活メディア→ツナカレ接続設計 D3。節レビュー記事は
+    # 読者がファン・OB中心のため「この部活・競技を応援したい方へ」CTA帯を表示する）。
     CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     text = FRONTMATTER_TMPL.format(
         title=c["title"], description=c["description"],

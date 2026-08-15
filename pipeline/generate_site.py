@@ -25,7 +25,22 @@ CONTENT = ROOT / "content" / "articles"
 SITE_BASE = "https://soccermania.jp/"
 GA_MEASUREMENT_ID = "G-WMQZ0KJ7H5"  # サッカーマニア専用GA4プロパティ（549901664）
 GSC_VERIFICATION = "0X77J6-cDQak8VJkyt1PGegqMjZwEI2HWAYjkwl3OF0"  # Search Console所有権確認トークン
-SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=soccermania&utm_medium=referral&utm_campaign=sponsor"
+# ---- ツナカレ接続導線（部活メディア→ツナカレ 接続設計 2026-08 D1〜D5準拠） ----
+UTM_TAIL = "utm_source=soccermania&utm_medium=referral&utm_campaign="
+TUNAKARE_SPONSOR_SEARCH_URL = f"https://tunakare.jp/?{UTM_TAIL}sponsor"
+TUNAKARE_LISTING_URL = f"https://lp.tunakare.jp/s01/?{UTM_TAIL}listing"
+TUNAKARE_MEDIA_PR_URL = f"https://media.tunakare.jp/contact/student/?{UTM_TAIL}media-pr"
+TUNAKARE_SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{UTM_TAIL}shukatsu"
+TUNAKARE_CAREER_URL = f"https://career.tunakare.jp/?{UTM_TAIL}career"
+TUNAKARE_LINKS_FILE = DATA / "tunakare_links.json"
+
+ARTICLE_CTA_BANDS = {
+    # cta値: (見出し, リンク文言, 遷移先, GA4イベント名)
+    "shukatsu": ("部活と就活の両立、ひとりで悩まない。", "無料で就活相談する →", TUNAKARE_SHUKATSU_URL, "cv_shukatsu_click"),
+    "career": ("体育会出身の転職・キャリア相談はこちら。", "career.tunakareで相談する →", TUNAKARE_CAREER_URL, "cv_career_click"),
+    "listing": ("遠征費・運営資金に。協賛募集を無料で掲載できます。", "無料で掲載する →", TUNAKARE_LISTING_URL, "cv_listing_click"),
+    "sponsor": ("この部活・競技を応援したい方へ。", "協賛募集を見る →", TUNAKARE_SPONSOR_SEARCH_URL, "cv_sponsor_click"),
+}
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 LEAGUE_ORDER = [
@@ -38,6 +53,7 @@ REGION_ORDER = ["関東", "関西", "東北", "北信越"]
 RECORDS_MIN_PLAYED = 30  # 記録室を生成する最低試合数（データが薄いリーグは非表示）
 
 _sitemap_paths: list[str] = []
+_tunakare_links: dict = {}
 
 
 # ---------------------------------------------------------------- data loading
@@ -68,6 +84,12 @@ def load_leagues():
         lg["label"] = lg["meta"]["league"]
         leagues.append(lg)
     return leagues
+
+
+def load_tunakare_links():
+    if TUNAKARE_LINKS_FILE.exists():
+        return json.loads(TUNAKARE_LINKS_FILE.read_text(encoding="utf-8"))
+    return {}
 
 
 def load_articles():
@@ -353,6 +375,62 @@ def write_page(path, html):
 
 # ---------------------------------------------------------------- components
 
+def pr_link(url, text, event, cta_class="cta"):
+    """ツナカレ系の外部リンク共通レンダラー。全リンクに rel="noopener sponsored" と
+    「PR」ラベルを付与する（部活メディア→ツナカレ接続設計 D5）。"""
+    return (f'<a class="{cta_class}" href="{escape(url)}" target="_blank" rel="noopener sponsored" '
+            f'onclick="window.gtag&&gtag(\'event\',\'{event}\')">'
+            f'<span class="pr-badge">PR</span>{escape(text)}</a>')
+
+
+def sponsor_block(team_slug):
+    """チームページの応援ブロック（D2）。tunakare_links.jsonにマッピングがあれば
+    協賛ページへの直リンク、なければ検索トップ＋掲載無料LPの2導線。
+    「取材してほしい部活を募集」は常に表示する。"""
+    info = _tunakare_links.get(team_slug)
+    parts = ['<section class="sponsor"><h2>この部活を応援する</h2>']
+    if info:
+        url = f'https://tunakare.jp/sponsorship/search/p/{info["sponsorship_slug"]}?{UTM_TAIL}sponsor'
+        label = f'{info["community"]}の協賛募集を見る'
+        parts.append(f'<p>{pr_link(url, label, "cv_sponsor_click")}</p>')
+        if info.get("title"):
+            parts.append(f'<p class="note">{escape(info["title"])}</p>')
+    else:
+        parts.append(f'<p>{pr_link(TUNAKARE_SPONSOR_SEARCH_URL, "応援できる部活を探す", "cv_sponsor_click")}</p>')
+        parts.append(f'<p>{pr_link(TUNAKARE_LISTING_URL, "この部の関係者の方へ: 協賛募集を無料で掲載", "cv_listing_click", "cta cta-sub")}</p>')
+    parts.append(f'<p>{pr_link(TUNAKARE_MEDIA_PR_URL, "取材してほしい部活を募集中", "cv_media_pr_click", "cta cta-sub")}</p>')
+    parts.append('</section>')
+    return "".join(parts)
+
+
+def article_cta_band(cta):
+    """記事frontmatterのcta値に応じたCTA帯（D3）。noneまたは未対応値は帯なし。"""
+    info = ARTICLE_CTA_BANDS.get(cta)
+    if not info:
+        return ""
+    headline, label, url, event = info
+    return (f'<section class="cta-band"><p class="cta-band-head">{escape(headline)}</p>'
+            f'<p>{pr_link(url, label, event)}</p></section>')
+
+
+def support_section_html():
+    """トップページの支援セクション（D4）。応援する/無料で掲載/取材募集の3カード。"""
+    cards = [
+        ("応援する", "気になる部活・応援したい部活の協賛募集を探せます。",
+         TUNAKARE_SPONSOR_SEARCH_URL, "応援できる部活を探す →", "cv_sponsor_click"),
+        ("無料で掲載", "遠征費・運営資金に。部活の協賛募集を無料で掲載できます。",
+         TUNAKARE_LISTING_URL, "協賛募集を掲載する →", "cv_listing_click"),
+        ("取材募集", "サッカーマニアが取材してほしい部活を募集しています。",
+         TUNAKARE_MEDIA_PR_URL, "取材に応募する →", "cv_media_pr_click"),
+    ]
+    cards_html = "".join(
+        f'<div class="support-card"><h3>{escape(title)}</h3><p>{escape(desc)}</p>'
+        f'<p>{pr_link(url, label, event, "cta cta-sub")}</p></div>'
+        for title, desc, url, label, event in cards)
+    return (f'<section class="support-section"><h2>部活を応援する・掲載する</h2>'
+            f'<div class="support-cards">{cards_html}</div></section>')
+
+
 def match_row(m, L, league_label=None, league_code=None):
     link = f'{L}matches/{m["id"]}/index.html' if league_code is None else f'{league_code}/matches/{m["id"]}/index.html'
     lg_cell = f'<td><span class="cat">{escape(league_label)}</span></td>' if league_label else ""
@@ -472,6 +550,7 @@ def build_portal(leagues, articles, meta):
                     body += f'<h3>{escape(group)}</h3>'
                 body += f'<div class="digest">{cards}</div>'
         body += '</section>'
+    body += support_section_html()
     recent = []
     for lg in leagues:
         for m in lg["matches"]:
@@ -619,10 +698,7 @@ def build_league(lg, articles):
                 for a in articles[:3])
             body += (f'<section><h2>読みもの</h2><ul>{art_links}</ul>'
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
-        body += ('<section class="sponsor"><h2>この部活を応援する企業</h2>'
-                 '<p class="todo">（協賛メニュー連携枠：スポンサー企業ロゴ・リンクをここに配置）</p>'
-                 f'<p><a class="cta" href="{SPONSOR_CTA_URL}" target="_blank" rel="noopener" '
-                 'onclick="window.gtag&&gtag(\'event\',\'cv_sponsor_click\')">協賛について問い合わせる →</a></p></section>')
+        body += sponsor_block(slug)
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | サッカーマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
@@ -783,6 +859,7 @@ def build_articles(articles, meta):
                  f' <span class="note">{escape(a["date"])}</span></p>')
         body += f'<h1>{escape(a["title"])}</h1>'
         body += f'<div class="article">{md_to_html(a["body"])}</div>'
+        body += article_cta_band(a.get("cta", "none"))
         body += f'<section><h2>あわせて読む</h2><ul>{related}</ul></section>'
         write_page(f"articles/{a['slug']}",
                    page(rel, f'{a["title"]} | サッカーマニア', body, meta,
@@ -1027,8 +1104,24 @@ table.detail td { white-space:normal; }
 .team-list { list-style:none; margin:0; padding:0; columns:2; font-size:.9rem; }
 .team-list li { margin:.25em 0; break-inside:avoid; }
 
-.sponsor .todo { color:var(--sub); background:var(--surface);
-  border:1px dashed var(--line); border-radius:10px; padding:.8rem; font-size:.85rem; }
+.sponsor p { margin:.5em 0; }
+.pr-badge { display:inline-block; background:#fef3c7; color:#92400e; font-size:.65rem;
+  font-weight:700; padding:.15em .45em; border-radius:4px; margin-right:.5em;
+  vertical-align:middle; letter-spacing:.02em; }
+.cta-sub { background:var(--navy-2); font-size:.8rem; }
+.cta-sub:hover { background:var(--navy); }
+
+.support-section { margin-top:1.6rem; }
+.support-cards { display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));
+  gap:1rem; }
+.support-card { background:var(--surface); border:1px solid var(--line);
+  border-radius:10px; padding:1rem 1.1rem; }
+.support-card h3 { margin:.1em 0 .5em; font-size:1rem; }
+.support-card p { font-size:.85rem; color:var(--sub); }
+
+.cta-band { background:#eef4f0; border:1px solid var(--line); border-left:4px solid var(--accent);
+  border-radius:10px; padding:1rem 1.2rem; margin-top:2rem; }
+.cta-band .cta-band-head { font-weight:700; margin:0 0 .7em; color:var(--ink); }
 
 .cat-line { font-size:.8rem; margin:.4rem 0; }
 .article { background:var(--surface); border:1px solid var(--line); border-radius:10px;
@@ -1052,6 +1145,8 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir(parents=True)
     _sitemap_paths.clear()
+    _tunakare_links.clear()
+    _tunakare_links.update(load_tunakare_links())
 
     leagues = load_leagues()
     articles = load_articles()
