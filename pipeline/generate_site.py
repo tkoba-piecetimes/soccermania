@@ -511,11 +511,14 @@ def build_portal(leagues, articles, meta):
     total_teams = sum(len(lg["teams"]) for lg in leagues)
     regions_present = [r for r in REGION_ORDER if any(lg["meta"]["region"] == r for lg in leagues)]
     region_kicker = "・".join(regions_present) + "の大学サッカー"
-    body = ('<div class="hero"><div class="hero-inner">'
+    body = ('<div class="hero">'
+            '<img class="hero-img" src="assets/hero.jpg" alt="" width="1440" height="810">'
+            '<div class="hero-text">'
             f'<p class="hero-kicker">{escape(region_kicker)}</p>'
             '<h1>大学サッカーの試合結果・日程・順位を毎日更新</h1>'
             f'<p class="hero-sub">全{len(leagues)}カテゴリ・{total_teams}チームの結果・順位・過去の対戦データを掲載　|　最終更新 {escape(meta["fetched_at"][:10])}</p>'
-            '</div></div>')
+            '</div>'
+            '</div>')
     for region in REGION_ORDER:
         region_leagues = [lg for lg in leagues if lg["meta"]["region"] == region]
         if not region_leagues:
@@ -1030,8 +1033,9 @@ a:hover { color:var(--accent-dark); }
   padding:.3em .6em; border-radius:6px; white-space:nowrap; }
 .league-nav a:hover { background:var(--accent); color:var(--navy); }
 
-.hero { background:var(--bg); margin:0 -1rem; border-bottom:1px solid var(--line); }
-.hero-inner { max-width:960px; margin:0 auto; padding:2.2rem 1rem 2.4rem; }
+.hero { max-width:960px; margin:0 auto; padding:1.6rem 1rem 0; }
+.hero-img { width:100%; height:auto; display:block; border-radius:12px; margin-bottom:1.1rem; }
+.hero-text { padding-bottom:1.8rem; }
 .hero-kicker { color:var(--accent); font-weight:700; font-size:.85rem;
   letter-spacing:.2em; text-transform:uppercase; margin:0 0 .4rem; }
 .hero h1 { font-size:1.5rem; line-height:1.45; margin:0 0 .6rem; color:var(--navy);
