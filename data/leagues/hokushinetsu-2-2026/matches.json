@@ -249,9 +249,9 @@
   "home_slug": "fukuikougyou",
   "away_slug": "shinshuu",
   "venue": "福井工業大学あわらキャンパス",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -264,9 +264,9 @@
   "home_slug": "toyamakokusai",
   "away_slug": "toyama",
   "venue": "北陸健工フィールド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 8,
   "note": ""
  },
  {
@@ -279,9 +279,9 @@
   "home_slug": "fukui",
   "away_slug": "jouetsukyouiku",
   "venue": "テクノポート福井スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 5,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -294,9 +294,9 @@
   "home_slug": "fukuikenritsu",
   "away_slug": "kanazawakougyou",
   "venue": "テクノポート福井スタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 8,
   "note": ""
  },
  {
@@ -480,8 +480,8 @@
   "note": ""
  },
  {
-  "id": "2026-10-03-kanazawaseiryou-vs-fukuikougyou",
-  "date": "2026-10-03",
+  "id": "2026-10-04-kanazawaseiryou-vs-fukuikougyou",
+  "date": "2026-10-04",
   "time": "10:00",
   "category": "北信越大学サッカーリーグ2部",
   "home": "金沢星稜大",
