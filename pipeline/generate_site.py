@@ -32,6 +32,7 @@ TUNAKARE_LISTING_URL = f"https://lp.tunakare.jp/s01/?{UTM_TAIL}listing"
 TUNAKARE_MEDIA_PR_URL = f"https://media.tunakare.jp/contact/student/?{UTM_TAIL}media-pr"
 TUNAKARE_SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{UTM_TAIL}shukatsu"
 TUNAKARE_CAREER_URL = f"https://career.tunakare.jp/?{UTM_TAIL}career"
+TUNAKARE_BIZ_GUIDE_URL = f"https://shukatsu.tunakare.jp/biz/guide?{UTM_TAIL}biz-guide"
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "soccer"
@@ -389,6 +390,8 @@ def sponsor_block():
     """
     parts = ['<section class="sponsor"><h2>この部活を応援する</h2>']
     parts.append(f'<p>{pr_link(TUNAKARE_SPONSOR_SEARCH_URL, "この部活・競技を応援したい方へ: ツナカレで協賛募集中の部活を探す", "cv_sponsor_click")}</p>')
+    parts.append(f'<p>{pr_link(TUNAKARE_SHUKATSU_URL, "この部の学生の方へ: 部活と両立できる就活相談（無料・メールで回答）", "cv_shukatsu_click")}</p>')
+    parts.append(f'<p>{pr_link(TUNAKARE_BIZ_GUIDE_URL, "体育会学生の採用を検討中の企業の方へ: 体育会学生採用ガイド2026（無料資料）", "cv_guide_click", "cta cta-sub")}</p>')
     parts.append(f'<p>{pr_link(TUNAKARE_LISTING_URL, "この部の関係者の方へ: 協賛募集を無料で掲載", "cv_listing_click", "cta cta-sub")}</p>')
     parts.append(f'<p>{pr_link(TUNAKARE_MEDIA_PR_URL, "取材してほしい部活を募集中", "cv_media_pr_click", "cta cta-sub")}</p>')
     parts.append('</section>')
@@ -396,13 +399,22 @@ def sponsor_block():
 
 
 def article_cta_band(cta):
-    """記事frontmatterのcta値に応じたCTA帯（D3）。noneまたは未対応値は帯なし。"""
+    """記事frontmatterのcta値に応じたCTA帯（D3）。noneまたは未対応値は帯なし。
+
+    cta: sponsor の記事は読者の大半が学生・保護者・OBのため、sponsor帯の直後に
+    学生向け就活相談の副帯（outlineスタイル）を必ず追加する。
+    """
     info = ARTICLE_CTA_BANDS.get(cta)
     if not info:
         return ""
     headline, label, url, event = info
-    return (f'<section class="cta-band"><p class="cta-band-head">{escape(headline)}</p>'
+    band = (f'<section class="cta-band"><p class="cta-band-head">{escape(headline)}</p>'
             f'<p>{pr_link(url, label, event)}</p></section>')
+    if cta == "sponsor":
+        s_headline, s_label, s_url, s_event = ARTICLE_CTA_BANDS["shukatsu"]
+        band += (f'<section class="cta-band cta-band-sub"><p class="cta-band-head">{escape(s_headline)}</p>'
+                 f'<p>{pr_link(s_url, s_label, s_event, "cta cta-sub")}</p></section>')
+    return band
 
 
 def support_section_html():
