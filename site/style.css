@@ -154,3 +154,16 @@ button.cta:disabled { opacity:.55; cursor:default; }
 .form-message { margin-top:1rem; font-weight:700; }
 .form-message-ok { color:var(--win, #15803d); }
 .form-message-error { color:var(--loss, #b91c1c); }
+
+.sticky-cta { display:none; }
+@media (max-width:767px) {
+  body.has-sticky-cta { padding-bottom:4.6rem; }
+  .sticky-cta { display:flex; align-items:center; gap:.6rem; position:fixed; left:0; right:0;
+    bottom:0; z-index:100; background:var(--surface); border-top:1px solid var(--line);
+    padding:.6rem .8rem; box-shadow:0 -2px 10px rgba(7,26,51,.14); }
+  .sticky-cta .pr-badge { flex-shrink:0; margin-right:0; }
+  .sticky-cta-text { flex:1; font-size:.75rem; font-weight:700; color:var(--ink); line-height:1.3; }
+  .sticky-cta-btn { flex-shrink:0; padding:.5em .9em; font-size:.8rem; }
+  .sticky-cta-close { flex-shrink:0; border:none; background:none; color:var(--sub);
+    font-size:1.3rem; line-height:1; padding:.2em .35em; cursor:pointer; }
+}
