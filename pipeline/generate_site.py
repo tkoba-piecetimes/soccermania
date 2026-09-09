@@ -32,7 +32,7 @@ TUNAKARE_LISTING_URL = f"https://lp.tunakare.jp/s01/?{UTM_TAIL}listing"
 TUNAKARE_MEDIA_PR_URL = f"https://media.tunakare.jp/contact/student/?{UTM_TAIL}media-pr"
 TUNAKARE_SHUKATSU_URL = f"https://shukatsu.tunakare.jp/?{UTM_TAIL}shukatsu"
 TUNAKARE_CAREER_URL = f"https://career.tunakare.jp/?{UTM_TAIL}career"
-TUNAKARE_BIZ_GUIDE_URL = f"https://shukatsu.tunakare.jp/biz/guide?{UTM_TAIL}biz-guide"
+TUNAKARE_BIZ_GUIDE_URL = f"https://career.tunakare.jp/biz/guide?{UTM_TAIL}biz-guide"
 
 # ---- お問い合わせ（中立リレーAPI経由・運営元秘匿。メディアSNS統合要件定義_2026-08 §3-1）
 CONTACT_MEDIA_KEY = "soccer"
