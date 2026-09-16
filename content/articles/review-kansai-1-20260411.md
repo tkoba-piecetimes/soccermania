@@ -39,3 +39,5 @@ cta: sponsor
 ## 出典
 
 - [関西学生サッカー連盟](https://www.jufa-kansai.jp/)
+
+前節（[4月4日～5日の結果まとめ](../review-kansai-1-20260404/index.html)）・次節（[4月18日～19日の結果まとめ](../review-kansai-1-20260418/index.html)）もあわせてご覧ください。最新の順位表・日程は[関西学生サッカーリーグ1部のリーグページ](../../kansai-1-2026/index.html)でご確認いただけます。
