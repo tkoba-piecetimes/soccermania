@@ -549,9 +549,9 @@
   "home_slug": "iwate",
   "away_slug": "fukushima",
   "venue": "いわぎんスタジアムB",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -564,9 +564,9 @@
   "home_slug": "touhokukouekibunka",
   "away_slug": "touhokufukushi",
   "venue": "東北公益文科大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -579,9 +579,9 @@
   "home_slug": "aomorichuuougakuin",
   "away_slug": "yamagata",
   "venue": "青森中央学院大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -594,9 +594,9 @@
   "home_slug": "hirosaki",
   "away_slug": "miyagikyouiku",
   "venue": "未定",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -609,9 +609,9 @@
   "home_slug": "ishinomakisenshuu",
   "away_slug": "nihondaigakukougakubu",
   "venue": "松島フットボールセンターP2",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -624,9 +624,9 @@
   "home_slug": "hachinohekougyou",
   "away_slug": "akita",
   "venue": "八戸工業大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 15,
   "note": ""
  },
  {
@@ -872,7 +872,7 @@
  {
   "id": "2026-10-10-hachinohekougyou-vs-aomorichuuougakuin",
   "date": "2026-10-10",
-  "time": "13:00",
+  "time": "17:00",
   "category": "東北地区大学サッカーリーグ2部",
   "home": "八戸工業大学",
   "away": "青森中央学院大学",

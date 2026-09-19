@@ -429,9 +429,9 @@
   "home_slug": "higashinihon-kokusai",
   "away_slug": "sendai-u",
   "venue": "アロハフィールド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 12,
   "note": ""
  },
  {
@@ -459,9 +459,9 @@
   "home_slug": "north-asia",
   "away_slug": "hachinohe-gakuin",
   "venue": "ノースアジア大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 31,
   "note": ""
  },
  {
@@ -474,9 +474,9 @@
   "home_slug": "touhoku",
   "away_slug": "touhokugakuin",
   "venue": "東北大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -752,13 +752,13 @@
  {
   "id": "2026-10-24-touhoku-vs-tohoku-kogyo",
   "date": "2026-10-24",
-  "time": "11:00",
+  "time": "13:00",
   "category": "東北地区大学サッカーリーグ1部",
   "home": "東北大学",
   "away": "東北工業大学",
   "home_slug": "touhoku",
   "away_slug": "tohoku-kogyo",
-  "venue": "東北大学サッカー場",
+  "venue": "未定",
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
