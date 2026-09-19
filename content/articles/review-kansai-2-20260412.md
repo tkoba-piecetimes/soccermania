@@ -1,12 +1,12 @@
 ---
-title: 【関西学生サッカーリーグ2部】4月12日の結果まとめ
-description: 関西学生サッカーリーグ2部4月12日の試合結果と最新の順位表（勝点・得失点差）をまとめました。
+title: 【第104回関西学生サッカーリーグ2部】4月12日の結果まとめ
+description: 第104回関西学生サッカーリーグ2部・4月12日の試合結果と最新の順位表（勝点・得失点差）をまとめました。首位は近畿大学（勝点30）。
 category: 結果まとめ
 date: 2026-04-12
 cta: sponsor
 ---
 
-関西学生サッカーリーグ2部の4月12日、全6試合の結果をまとめました。現在の首位は近畿大学（勝点30、得失点差+20）です。
+第104回関西学生サッカーリーグ2部の4月12日、全6試合の結果をまとめました。現在の首位は近畿大学（勝点30、得失点差+20）です。
 
 ## 試合結果
 
@@ -35,6 +35,19 @@ cta: sponsor
 | 10 | [大阪国際大学](../../kansai-2-2026/clubs/oosakakokusai/index.html) | 8 | -17 |
 | 11 | [大阪大学](../../kansai-2-2026/clubs/oosaka/index.html) | 6 | -12 |
 | 12 | [大阪産業大学](../../kansai-2-2026/clubs/oosakasangyou/index.html) | 4 | -25 |
+
+## この節のポイント
+
+- 最も得点が多く動いたのは[関西福祉大学](../../kansai-2-2026/clubs/kansaifukushi/index.html) 3-1 [神戸学院大学](../../kansai-2-2026/clubs/koubegakuin/index.html)の一戦（合計4得点）。
+- 首位の[近畿大学](../../kansai-2-2026/clubs/kinki/index.html)は[大阪大学](../../kansai-2-2026/clubs/oosaka/index.html)に1-0と接戦を制し、勝点30・得失点差+20を維持しました。
+- 勝点21で並ぶ[関西福祉大学](../../kansai-2-2026/clubs/kansaifukushi/index.html)（4位）と[京都橘大学](../../kansai-2-2026/clubs/kyoutotachibana/index.html)（5位）は、得失点差（+16 対 +8）で順位が分かれています。
+
+## 関連記事
+
+- [関西学生サッカーリーグの仕組みとは？1部〜4部の構成と入替戦・順位表の見方](../kansai-university-soccer-league-system/index.html)
+- [【関西学生サッカーリーグ2部】4月5日の結果まとめ](../review-kansai-2-20260405/index.html)
+- [【関西学生サッカーリーグ2部】4月18日～19日の結果まとめ](../review-kansai-2-20260418/index.html)
+- [関西学生サッカーリーグ2部 順位表・日程はこちら](../../kansai-2-2026/standings/index.html)
 
 ## 出典
 
