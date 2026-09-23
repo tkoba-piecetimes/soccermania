@@ -15,6 +15,20 @@
    "goals_for": 55
   },
   {
+   "team": "富士大学",
+   "slug": "fuji-u",
+   "points": 20,
+   "games": 8,
+   "wins": 6,
+   "draws": 2,
+   "losses": 0,
+   "gf": 26,
+   "ga": 5,
+   "rank": 2,
+   "goal_diff": "+21",
+   "goals_for": 26
+  },
+  {
    "team": "仙台大学",
    "slug": "sendai-u",
    "points": 19,
@@ -24,23 +38,9 @@
    "losses": 1,
    "gf": 38,
    "ga": 9,
-   "rank": 2,
+   "rank": 3,
    "goal_diff": "+29",
    "goals_for": 38
-  },
-  {
-   "team": "富士大学",
-   "slug": "fuji-u",
-   "points": 17,
-   "games": 7,
-   "wins": 5,
-   "draws": 2,
-   "losses": 0,
-   "gf": 21,
-   "ga": 5,
-   "rank": 3,
-   "goal_diff": "+16",
-   "goals_for": 21
   },
   {
    "team": "東北学院大学",
@@ -88,14 +88,14 @@
    "team": "東北工業大学",
    "slug": "tohoku-kogyo",
    "points": 6,
-   "games": 7,
+   "games": 8,
    "wins": 2,
    "draws": 0,
-   "losses": 5,
+   "losses": 6,
    "gf": 6,
-   "ga": 36,
+   "ga": 41,
    "rank": 7,
-   "goal_diff": "-30",
+   "goal_diff": "-35",
    "goals_for": 6
   },
   {

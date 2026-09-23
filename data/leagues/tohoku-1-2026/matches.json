@@ -444,9 +444,9 @@
   "home_slug": "tohoku-kogyo",
   "away_slug": "fuji-u",
   "venue": "松島FBC P2",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 5,
   "note": ""
  },
  {

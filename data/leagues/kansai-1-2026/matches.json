@@ -1089,9 +1089,9 @@
   "home_slug": "kyoto-sangyo",
   "away_slug": "biwako-seikei",
   "venue": "三木総合防災公園陸上競技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1104,9 +1104,9 @@
   "home_slug": "doshisha",
   "away_slug": "osaka-shogyo",
   "venue": "三木総合防災公園陸上競技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1119,9 +1119,9 @@
   "home_slug": "kansai-u",
   "away_slug": "konan",
   "venue": "三木総合防災公園第2球技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1134,9 +1134,9 @@
   "home_slug": "kwansei-gakuin",
   "away_slug": "osaka-gakuin",
   "venue": "三木総合防災公園第2球技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1149,9 +1149,9 @@
   "home_slug": "ritsumeikan",
   "away_slug": "momoyama-gakuin",
   "venue": "サカイキャニングスポーツパーク",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1164,9 +1164,9 @@
   "home_slug": "hannan",
   "away_slug": "osaka-taiiku",
   "venue": "サカイキャニングスポーツパーク",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 3,
   "note": ""
  },
  {
