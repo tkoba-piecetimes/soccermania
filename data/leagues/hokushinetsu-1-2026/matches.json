@@ -429,9 +429,9 @@
   "home_slug": "kanazawa-u",
   "away_slug": "niigata-iryo-fukushi",
   "venue": "金沢大学 SOLTILO FIELD A",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 7,
   "note": ""
  },
  {
@@ -444,9 +444,9 @@
   "home_slug": "niigata-u",
   "away_slug": "matsumoto",
   "venue": "グランセナサッカースタジアム",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -459,9 +459,9 @@
   "home_slug": "niigata-sangyo",
   "away_slug": "niigata-keiei",
   "venue": "刈羽ぴあパーク",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -474,9 +474,9 @@
   "home_slug": "kanazawa-gakuin",
   "away_slug": "hokuriku",
   "venue": "金沢学院大学グリーンフィールドⅡ",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 1,
   "note": ""
  },
  {

@@ -354,9 +354,9 @@
   "home_slug": "toyama",
   "away_slug": "kanazawaseiryou",
   "venue": "オリバースポーツフィールド射水 マリンフィールド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 5,
   "note": ""
  },
  {
@@ -369,9 +369,9 @@
   "home_slug": "fukui",
   "away_slug": "fukuikougyou",
   "venue": "福井工業大学あわらキャンパス",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 7,
   "note": ""
  },
  {
@@ -384,9 +384,9 @@
   "home_slug": "jouetsukyouiku",
   "away_slug": "kanazawakougyou",
   "venue": "刈羽ぴあパーク",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 5,
   "note": ""
  },
  {
@@ -399,9 +399,9 @@
   "home_slug": "toyamakokusai",
   "away_slug": "fukuikenritsu",
   "venue": "オリバースポーツフィールド射水 ブリッジフィールド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 1,
   "note": ""
  },
  {
