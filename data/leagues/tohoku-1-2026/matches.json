@@ -489,9 +489,9 @@
   "home_slug": "sendai-u",
   "away_slug": "tohoku-kogyo",
   "venue": "仙台大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 9,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -504,9 +504,9 @@
   "home_slug": "fuji-u",
   "away_slug": "higashinihon-kokusai",
   "venue": "富士大学人工芝サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -519,9 +519,9 @@
   "home_slug": "hachinohe-gakuin",
   "away_slug": "touhoku",
   "venue": "八戸学院大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {
