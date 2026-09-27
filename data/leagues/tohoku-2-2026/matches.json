@@ -669,9 +669,9 @@
   "home_slug": "miyagikyouiku",
   "away_slug": "touhokukouekibunka",
   "venue": "松島フットボールセンターP1",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 6,
   "note": ""
  },
  {

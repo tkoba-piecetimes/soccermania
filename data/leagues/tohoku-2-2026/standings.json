@@ -15,6 +15,20 @@
    "goals_for": 38
   },
   {
+   "team": "東北公益文科大学",
+   "slug": "touhokukouekibunka",
+   "points": 16,
+   "games": 7,
+   "wins": 5,
+   "draws": 1,
+   "losses": 1,
+   "gf": 30,
+   "ga": 15,
+   "rank": 2,
+   "goal_diff": "+15",
+   "goals_for": 30
+  },
+  {
    "team": "岩手大学",
    "slug": "iwate",
    "points": 16,
@@ -24,7 +38,7 @@
    "losses": 1,
    "gf": 17,
    "ga": 7,
-   "rank": 2,
+   "rank": 3,
    "goal_diff": "+10",
    "goals_for": 17
   },
@@ -38,7 +52,7 @@
    "losses": 3,
    "gf": 25,
    "ga": 14,
-   "rank": 3,
+   "rank": 4,
    "goal_diff": "+11",
    "goals_for": 25
   },
@@ -52,23 +66,9 @@
    "losses": 2,
    "gf": 14,
    "ga": 9,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "+5",
    "goals_for": 14
-  },
-  {
-   "team": "東北公益文科大学",
-   "slug": "touhokukouekibunka",
-   "points": 13,
-   "games": 6,
-   "wins": 4,
-   "draws": 1,
-   "losses": 1,
-   "gf": 24,
-   "ga": 14,
-   "rank": 5,
-   "goal_diff": "+10",
-   "goals_for": 24
   },
   {
    "team": "石巻専修大学",
@@ -116,15 +116,15 @@
    "team": "宮城教育大学",
    "slug": "miyagikyouiku",
    "points": 7,
-   "games": 6,
+   "games": 7,
    "wins": 2,
    "draws": 1,
-   "losses": 3,
-   "gf": 7,
-   "ga": 11,
+   "losses": 4,
+   "gf": 8,
+   "ga": 17,
    "rank": 9,
-   "goal_diff": "-4",
-   "goals_for": 7
+   "goal_diff": "-9",
+   "goals_for": 8
   },
   {
    "team": "青森中央学院大学",
