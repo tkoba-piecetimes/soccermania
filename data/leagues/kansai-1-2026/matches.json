@@ -1179,9 +1179,9 @@
   "home_slug": "kyoto-sangyo",
   "away_slug": "osaka-gakuin",
   "venue": "京都産業大学（神山球技場）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1194,9 +1194,9 @@
   "home_slug": "doshisha",
   "away_slug": "momoyama-gakuin",
   "venue": "京都産業大学（神山球技場）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1209,9 +1209,9 @@
   "home_slug": "kansai-u",
   "away_slug": "osaka-shogyo",
   "venue": "関西大学（千里山中央G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1224,9 +1224,9 @@
   "home_slug": "kwansei-gakuin",
   "away_slug": "ritsumeikan",
   "venue": "関西大学（千里山中央G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1239,9 +1239,9 @@
   "home_slug": "hannan",
   "away_slug": "biwako-seikei",
   "venue": "阪南大学（高見の里Ｇ）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -1254,9 +1254,9 @@
   "home_slug": "osaka-taiiku",
   "away_slug": "konan",
   "venue": "阪南大学（高見の里Ｇ）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  },
  {
