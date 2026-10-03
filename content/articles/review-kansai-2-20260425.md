@@ -36,6 +36,8 @@ cta: sponsor
 | 11 | [大阪大学](../../kansai-2-2026/clubs/oosaka/index.html) | 6 | -12 |
 | 12 | [大阪産業大学](../../kansai-2-2026/clubs/oosakasangyou/index.html) | 4 | -25 |
 
+近畿大学が大阪産業大学を3-0で下した4月19日の試合を含む、一つ前の節の結果と順位表は、[関西学生サッカーリーグ2部の4月18日～19日の結果まとめ](../review-kansai-2-20260418/index.html)で確認できます。
+
 ## 出典
 
 - [関西学生サッカー連盟](https://www.jufa-kansai.jp/)

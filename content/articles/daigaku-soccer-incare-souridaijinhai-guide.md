@@ -75,6 +75,8 @@ cta: sponsor
 - [東北地区大学サッカーリーグの仕組みとは？1部・2部の構成と入替戦・昇格戦のルール](https://soccermania.jp/articles/tohoku-university-soccer-league-system/)
 - [北信越大学サッカーリーグの仕組みとは？1部・2部の構成と昇格・降格ルール](https://soccermania.jp/articles/hokushinetsu-university-soccer-league-system/)
 
+北信越リーグの2026年シーズン序盤の戦いぶりを知りたい方は、首位・松本大を含む順位の動きを追える[北信越大学サッカーリーグ1部の4月18日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260418/index.html)もあわせてご覧ください。
+
 自分が応援するリーグや大学が、夏の総理大臣杯や冬のインカレでどこまで勝ち上がれるのかを追いかけると、リーグ戦だけを見ているときとは違った楽しみ方ができます。日々の[結果まとめ](https://soccermania.jp/articles/index.html)とあわせて、全国大会の行方もぜひチェックしてみてください。
 
 ## まとめ
