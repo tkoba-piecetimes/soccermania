@@ -564,9 +564,9 @@
   "home_slug": "touhoku",
   "away_slug": "fuji-u",
   "venue": "東北大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -579,9 +579,9 @@
   "home_slug": "higashinihon-kokusai",
   "away_slug": "hachinohe-gakuin",
   "venue": "楢葉町総合G多目的",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 6,
   "note": ""
  },
  {
@@ -594,9 +594,9 @@
   "home_slug": "tohoku-kogyo",
   "away_slug": "touhokugakuin",
   "venue": "東北学院総合運動場人工芝グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 4,
   "note": ""
  },
  {
