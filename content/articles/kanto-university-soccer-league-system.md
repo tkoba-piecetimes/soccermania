@@ -52,6 +52,8 @@ cta: sponsor
 
 関東大学サッカーリーグ戦は、上位校同士の頂上決戦だけでなく、入替戦をめぐる中位・下位チームの攻防も大きな見どころです。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、シーズンを通じてより深く大学サッカーを楽しめるはずです。
 
+関西の大学サッカーを追いかけている方は、1部〜4部の構成や年間通算方式の違いを[関西学生サッカーリーグの仕組みと入替戦・順位表の見方](https://soccermania.jp/articles/kansai-university-soccer-league-system/index.html)でも確認できます。<!-- index-lane-link -->
+
 ---
 
 出典：[関東大学サッカー連盟](https://www.jufa-kanto.jp/)の公式情報をもとに編集部作成

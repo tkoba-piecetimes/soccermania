@@ -42,7 +42,7 @@ cta: sponsor
 
 2部は北ブロック・南A・南Bという編成のため、地元に近いブロックの試合から追いかけると距離感がつかみやすくなります。[弘前大学](https://soccermania.jp/tohoku-2-2026/clubs/hirosaki/index.html)のように地元密着で応援されているチームも多く、ブロックごとの首位争いを追うだけでもリーグ戦全体の熱量が伝わってきます。
 
-大学の進路選びの段階から大学サッカーに関わりたい高校生の方は、[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてみてください。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、東北の大学サッカーをより深く楽しめるはずです。
+大学の進路選びの段階から大学サッカーに関わりたい高校生の方は、[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてみてください。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、東北の大学サッカーをより深く楽しめるはずです。1部の結果の読み方は、[東北地区大学サッカーリーグ1部の4月25日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260425/index.html)で順位表とあわせて確認できます。<!-- index-lane-link -->
 
 ---
 

@@ -213,6 +213,7 @@ def jsonld_sports_event(m, league_name):
 
 def md_inline(s):
     s = escape(s, quote=False)
+    s = s.replace("&lt;!-- index-lane-link --&gt;", "<!-- index-lane-link -->")
     s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     return s
@@ -673,6 +674,23 @@ def build_portal(leagues, articles, meta):
 
 # ---------------------------------------------------------------- league pages
 
+SYSTEM_GUIDES = {
+    "kansai": ("kansai-university-soccer-league-system", "関西学生サッカーリーグの仕組み（1部〜4部の構成と入替戦・順位表の見方）"),
+    "kanto": ("kanto-university-soccer-league-system", "関東大学サッカーリーグの仕組み（入替戦と順位表の見方）"),
+    "tohoku": ("tohoku-university-soccer-league-system", "東北地区大学サッカーリーグの仕組み（入替戦・昇格戦のルール）"),
+    "hokushinetsu": ("hokushinetsu-university-soccer-league-system", "北信越大学サッカーリーグの仕組み"),
+}
+
+
+def system_guide_note(code, R, articles):
+    """リーグ別ページ→リーグの仕組み解説記事への内部リンク（1ページ1本・index-lane-link）。"""
+    g = SYSTEM_GUIDES.get(code.split("-")[0])
+    if not g or not any(a["slug"] == g[0] for a in articles):
+        return ""
+    return (f'<!-- index-lane-link --><p class="note">入替戦や順位の決まり方は、'
+            f'<a href="{R}articles/{g[0]}/index.html">{escape(g[1])}</a>で解説しています。</p>')
+
+
 def build_league(lg, articles):
     code = lg["code"]
     meta, matches, standings = lg["meta"], lg["matches"], lg["standings"]
@@ -704,6 +722,7 @@ def build_league(lg, articles):
     for block, entries in standings.items():
         if entries:
             body += '<section><h2>順位表</h2>' + standings_table(block, entries, L) + '</section>'
+    body += system_guide_note(code, R, articles)
     write_page(code, page(R, f'{league_name} 試合結果・日程・順位表 | サッカーマニア', body, meta,
                           path=f"{code}/",
                           desc=f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。',
@@ -732,6 +751,7 @@ def build_league(lg, articles):
         if entries:
             body += standings_table(block, entries, L)
     body += '<p class="note">※順位・勝ち点は勝ち点3・分け1・敗け0の集計です。関西学生サッカー連盟は公式順位表、関東・東北・北信越は試合結果から編集部が算出した参考値です。公式発表は各連盟の発表をご確認ください。</p>'
+    body += system_guide_note(code, R, articles)
     write_page(f"{code}/standings",
                page(R, f'順位表 | {league_name} | サッカーマニア', body, meta,
                     path=f"{code}/standings/", desc=f'{league_name}の順位表。勝点・得失点差を毎日更新。',
