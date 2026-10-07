@@ -34,6 +34,8 @@ cta: sponsor
 | 12 | [福島大学](../../tohoku-2-2026/clubs/fukushima/index.html) | 1 | -5 |
 | 13 | [日本大学工学部](../../tohoku-2-2026/clubs/nihondaigakukougakubu/index.html) | 0 | -23 |
 
+同じ日の1部の結果と順位表は、[東北地区大学サッカーリーグ1部の4月29日の結果まとめ](../review-tohoku-1-20260429/index.html)でご確認いただけます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東北サッカー協会](https://www.jfa.jp/match_47fa/102_tohoku/2026_university/div2/thfa/schedule.html)
