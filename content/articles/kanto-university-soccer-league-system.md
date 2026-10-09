@@ -74,6 +74,8 @@ JUFA関東の公式説明（[大学サッカー基礎知識](https://www.jufa-ka
 
 関西の大学サッカーを追いかけている方は、1部〜4部の構成や年間通算方式の違いを[関西学生サッカーリーグの仕組みと入替戦・順位表の見方](https://soccermania.jp/articles/kansai-university-soccer-league-system/index.html)でも確認できます。<!-- index-lane-link -->
 
+2部の入替戦圏の争いを実際の順位表で追うなら、[関東大学サッカーリーグ戦2部 第5節 結果](https://soccermania.jp/articles/review-kanto-2-sec05/index.html)が参考になります。<!-- index-lane-link -->
+
 ## よくある質問
 
 ### Q. 関東大学サッカーリーグは何部までありますか？

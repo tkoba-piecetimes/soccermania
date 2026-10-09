@@ -60,6 +60,8 @@ cta: sponsor
 
 関西学生サッカーリーグは、上位校同士の頂上決戦だけでなく、4部という裾野の広さゆえに中位・下位チームの入替戦をめぐる攻防も大きな見どころです。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、シーズンを通じてより深く大学サッカーを楽しめるはずです。1部の最新の順位の動きを見たい方は、[関西学生サッカーリーグ1部の4月29日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260429/index.html)もあわせて読みたい一本です。<!-- index-lane-link -->
 
+4月末以降の1部の動きは、[関西学生サッカーリーグ1部 5月2日 結果](https://soccermania.jp/articles/review-kansai-1-20260502/index.html)の順位表で、仕組みで学んだ勝点の積み上がり方を実際の数字として確認できます。<!-- index-lane-link -->
+
 あわせて読みたい記事です。
 
 - [9地区の全体像](https://soccermania.jp/articles/daigaku-soccer-league-shurui-9chiku)

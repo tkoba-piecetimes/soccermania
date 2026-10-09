@@ -36,6 +36,8 @@ JR東日本カップ2026 第100回関東大学サッカーリーグ戦1部の第
 | 11 | [駒澤大学](../../kanto-1-2026/clubs/komazawa/index.html) | 11 | -5 |
 | 12 | [東海大学](../../kanto-1-2026/clubs/tokai/index.html) | 7 | -7 |
 
+第4節を挟んだ5月初めの第5節で首位争いがどう動いたかは、[関東大学サッカーリーグ戦1部 第5節 結果](../review-kanto-1-sec05/index.html)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東大学サッカー連盟](https://www.jufa-kanto.jp/)
