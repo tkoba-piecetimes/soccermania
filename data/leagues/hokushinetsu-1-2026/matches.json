@@ -549,9 +549,9 @@
   "home_slug": "niigata-iryo-fukushi",
   "away_slug": "niigata-sangyo",
   "venue": "NUHW FOOTBALL FIELD",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -564,9 +564,9 @@
   "home_slug": "kanazawa-gakuin",
   "away_slug": "matsumoto",
   "venue": "金沢学院大学グリーンフィールドⅡ",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -579,9 +579,9 @@
   "home_slug": "niigata-keiei",
   "away_slug": "kanazawa-u",
   "venue": "経大フィールド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -594,9 +594,9 @@
   "home_slug": "hokuriku",
   "away_slug": "niigata-u",
   "venue": "北陸大学フットボールパーク",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
