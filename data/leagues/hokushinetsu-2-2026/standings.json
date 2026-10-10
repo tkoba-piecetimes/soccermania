@@ -43,6 +43,20 @@
    "goals_for": 97
   },
   {
+   "team": "富山大",
+   "slug": "toyama",
+   "points": 14,
+   "games": 8,
+   "wins": 4,
+   "draws": 2,
+   "losses": 2,
+   "gf": 22,
+   "ga": 9,
+   "rank": 4,
+   "goal_diff": "+13",
+   "goals_for": 22
+  },
+  {
    "team": "福井大",
    "slug": "fukui",
    "points": 12,
@@ -52,23 +66,9 @@
    "losses": 4,
    "gf": 25,
    "ga": 31,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "-6",
    "goals_for": 25
-  },
-  {
-   "team": "富山大",
-   "slug": "toyama",
-   "points": 11,
-   "games": 7,
-   "wins": 3,
-   "draws": 2,
-   "losses": 2,
-   "gf": 19,
-   "ga": 9,
-   "rank": 5,
-   "goal_diff": "+10",
-   "goals_for": 19
   },
   {
    "team": "富山国際大",
@@ -116,14 +116,14 @@
    "team": "福井県立大",
    "slug": "fukuikenritsu",
    "points": 0,
-   "games": 7,
+   "games": 8,
    "wins": 0,
    "draws": 0,
-   "losses": 7,
+   "losses": 8,
    "gf": 3,
-   "ga": 94,
+   "ga": 97,
    "rank": 9,
-   "goal_diff": "-91",
+   "goal_diff": "-94",
    "goals_for": 3
   }
  ]
