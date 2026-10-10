@@ -76,6 +76,8 @@ JUFA関東の公式説明（[大学サッカー基礎知識](https://www.jufa-ka
 
 2部の入替戦圏の争いを実際の順位表で追うなら、[関東大学サッカーリーグ戦2部 第5節 結果](https://soccermania.jp/articles/review-kanto-2-sec05/index.html)が参考になります。<!-- index-lane-link -->
 
+1部の勝点の積み上がり方を1節単位で見るなら、国士舘大学が日本体育大学に4-1で勝った5月5日の[関東大学サッカーリーグ1部 第6節の結果](https://soccermania.jp/articles/review-kanto-1-sec06/index.html)も一例になります。<!-- index-lane-link -->
+
 ## よくある質問
 
 ### Q. 関東大学サッカーリーグは何部までありますか？

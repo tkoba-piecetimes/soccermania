@@ -62,6 +62,8 @@ cta: sponsor
 
 4月末以降の1部の動きは、[関西学生サッカーリーグ1部 5月2日 結果](https://soccermania.jp/articles/review-kansai-1-20260502/index.html)の順位表で、仕組みで学んだ勝点の積み上がり方を実際の数字として確認できます。<!-- index-lane-link -->
 
+続く大型連休中の1部では、京都産業大学がびわこ成蹊スポーツ大学に6-1で大勝しており、その日の全6試合は[関西学生サッカーリーグ1部 5月5日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260505/index.html)で確認できます。<!-- index-lane-link -->
+
 あわせて読みたい記事です。
 
 - [9地区の全体像](https://soccermania.jp/articles/daigaku-soccer-league-shurui-9chiku)

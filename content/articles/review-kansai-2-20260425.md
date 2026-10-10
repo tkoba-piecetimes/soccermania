@@ -40,6 +40,8 @@ cta: sponsor
 
 さらにその後、5月2日の節で順位がどう動いたかは、[関西学生サッカーリーグ2部 5月2日 結果](../review-kansai-2-20260502/index.html)で確認できます。<!-- index-lane-link -->
 
+この日に勝点12で並んだ近畿大学と関西国際大学が直接対決し、近畿大学が3-1で勝った試合は、[関西学生サッカーリーグ2部 5月5日の結果まとめ](../review-kansai-2-20260505/index.html)に載せています。<!-- index-lane-link -->
+
 ## 出典
 
 - [関西学生サッカー連盟「2026年度 第104回 関西学生サッカーリーグ」2部前期 日程（記録）](https://www.jufa-kansai.jp/meet/student/26data/nittei_2_1.html)
