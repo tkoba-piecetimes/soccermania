@@ -819,9 +819,9 @@
   "home_slug": "iwate",
   "away_slug": "miyagikyouiku",
   "venue": "富士大学グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 5,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -834,9 +834,9 @@
   "home_slug": "nihondaigakukougakubu",
   "away_slug": "yamagata",
   "venue": "いいたてスポーツ公園陸上競技場・サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -849,9 +849,9 @@
   "home_slug": "akita",
   "away_slug": "touhokufukushi",
   "venue": "秋田大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -864,9 +864,9 @@
   "home_slug": "fukushima",
   "away_slug": "aomori",
   "venue": "いいたてスポーツ公園陸上競技場・サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -879,9 +879,9 @@
   "home_slug": "hachinohekougyou",
   "away_slug": "aomorichuuougakuin",
   "venue": "八戸工業大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 4,
   "note": ""
  },
  {

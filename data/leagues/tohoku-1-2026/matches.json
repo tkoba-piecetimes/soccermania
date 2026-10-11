@@ -609,9 +609,9 @@
   "home_slug": "touhoku",
   "away_slug": "sendai-u",
   "venue": "東北大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -639,9 +639,9 @@
   "home_slug": "hachinohe-gakuin",
   "away_slug": "tohoku-kogyo",
   "venue": "八戸学院大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -654,9 +654,9 @@
   "home_slug": "touhokugakuin",
   "away_slug": "higashinihon-kokusai",
   "venue": "東北学院総合運動場人工芝グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 2,
   "note": ""
  },
  {
