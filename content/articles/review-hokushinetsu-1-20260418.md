@@ -30,6 +30,8 @@ cta: sponsor
 | 7 | [新潟産業大](../../hokushinetsu-1-2026/clubs/niigata-sangyo/index.html) | 3 | -17 |
 | 8 | [金沢大](../../hokushinetsu-1-2026/clubs/kanazawa-u/index.html) | 0 | -27 |
 
+一つ前の4月11日（第2節）の4試合の結果と4月11日終了時点の順位は、[北信越大学サッカーリーグ1部の4月11日の結果まとめ](../review-hokushinetsu-1-20260411/index.html)で確認できます。
+
 ## 出典
 
 - [北信越大学サッカー連盟](https://hufl.info/league/schedule-div1/)
