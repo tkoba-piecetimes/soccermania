@@ -62,6 +62,8 @@ JUFA関東の公式説明（[大学サッカー基礎知識](https://www.jufa-ka
 
 早見表の順位を頭に入れておくと、順位表の見え方が変わります。1部なら10位・11位・12位の勝点差、2部なら1〜3位の上位争いと9〜12位の下位争い、3部なら上位2チームと10〜12位の勝点差が、そのまま昇格・降格やプレーオフに直結します。サッカーマニアでは[1部の順位表](https://soccermania.jp/kanto-1-2026/standings/index.html)と[2部の順位表](https://soccermania.jp/kanto-2-2026/standings/index.html)を公開していますので、今季の動きは各節の結果とあわせて確認してみてください。3部の順位表はこのサイトでは公開しておらず、[JUFA関東のリーグ戦ページ](https://www.jufa-kanto.jp/league)の3部の順位から確認できます。
 
+2部のシーズン中盤の順位の動きは、[関東大学サッカーリーグ戦2部 第7節の結果と順位表](https://soccermania.jp/articles/review-kanto-2-sec07/index.html)でも確認できます。<!-- index-lane-link -->
+
 ## 観戦・応援を楽しむためのポイント
 
 関東大学サッカーリーグ1部には、[筑波大学](https://soccermania.jp/kanto-1-2026/clubs/tsukuba/index.html)をはじめ、全国大会での実績を持つ伝統校が多数所属しています（強豪校の見方は[大学サッカーの強豪大学](https://soccermania.jp/articles/daigaku-soccer-kyougou-daigaku/)も参考になります）。リーグ戦の結果は、11月から12月にかけて開催される全日本大学サッカー選手権大会（インカレ）の出場権争いにも直結するため、シーズン終盤の順位表は普段以上に注目が集まります。

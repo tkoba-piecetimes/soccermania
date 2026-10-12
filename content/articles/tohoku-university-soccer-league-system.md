@@ -46,6 +46,8 @@ cta: sponsor
 
 その後の1部の順位の動きは、[東北地区大学サッカーリーグ1部 5月4日 結果](https://soccermania.jp/articles/review-tohoku-1-20260504/index.html)で、仕組みを踏まえて読み解けます。<!-- index-lane-link -->
 
+2部の首位争いが勝点と得失点差でどう決まっていくかは、[東北地区大学サッカーリーグ2部 5月9日の結果と順位表](https://soccermania.jp/articles/review-tohoku-2-20260509/index.html)で確認できます。<!-- index-lane-link -->
+
 ---
 
 出典：一般社団法人東北サッカー協会 東北大学サッカーリーグ公式ページ（tohoku-fa.jp）の公開情報をもとに編集部作成
