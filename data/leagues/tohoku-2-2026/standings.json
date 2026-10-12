@@ -73,16 +73,16 @@
   {
    "team": "石巻専修大学",
    "slug": "ishinomakisenshuu",
-   "points": 16,
-   "games": 8,
-   "wins": 5,
+   "points": 19,
+   "games": 9,
+   "wins": 6,
    "draws": 1,
    "losses": 2,
-   "gf": 22,
-   "ga": 17,
+   "gf": 28,
+   "ga": 18,
    "rank": 6,
-   "goal_diff": "+5",
-   "goals_for": 22
+   "goal_diff": "+10",
+   "goals_for": 28
   },
   {
    "team": "青森大学",
@@ -102,15 +102,15 @@
    "team": "弘前大学",
    "slug": "hirosaki",
    "points": 9,
-   "games": 7,
+   "games": 8,
    "wins": 3,
    "draws": 0,
-   "losses": 4,
-   "gf": 13,
-   "ga": 22,
+   "losses": 5,
+   "gf": 14,
+   "ga": 28,
    "rank": 8,
-   "goal_diff": "-9",
-   "goals_for": 13
+   "goal_diff": "-14",
+   "goals_for": 14
   },
   {
    "team": "青森中央学院大学",
