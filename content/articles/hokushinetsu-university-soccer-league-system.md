@@ -46,7 +46,7 @@ cta: sponsor
 
 2部でも[金沢星稜大学](https://soccermania.jp/hokushinetsu-2-2026/clubs/kanazawaseiryou/index.html)のように地元で親しまれているチームが多く、1部昇格を狙う上位争いを追うだけでもリーグ戦全体の熱量が伝わってきます。県境をまたいで開催される試合も多いため、遠征を兼ねて観戦するファンも少なくありません。
 
-大学の進路選びの段階から大学サッカーに関わりたい高校生の方は、[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてみてください。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、北信越の大学サッカーをより深く楽しめるはずです。
+大学の進路選びの段階から大学サッカーに関わりたい高校生の方は、[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてみてください。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、北信越の大学サッカーをより深く楽しめるはずです。1部の試合結果の一例として、[北信越大学サッカーリーグ1部 5月16日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260516/)で順位表の見方を実際の勝点で確認できます。<!-- index-lane-link -->
 
 ---
 

@@ -66,6 +66,8 @@ cta: sponsor
 
 2部の首位争いや下位の勝点の差は、[関西学生サッカーリーグ2部 5月10日の結果と順位表](https://soccermania.jp/articles/review-kansai-2-20260510/index.html)で確認できます。<!-- index-lane-link -->
 
+5月中旬の1部の結果を見たい方は、[関西学生サッカーリーグ1部 5月16日～17日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260516/)で勝点の動きを確認できます。<!-- index-lane-link -->
+
 あわせて読みたい記事です。
 
 - [9地区の全体像](https://soccermania.jp/articles/daigaku-soccer-league-shurui-9chiku)
