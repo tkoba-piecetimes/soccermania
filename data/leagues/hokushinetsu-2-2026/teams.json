@@ -44,6 +44,16 @@
   "slug": "fukui",
   "block": "総合"
  },
+ "富山大学": {
+  "team": "富山大学",
+  "slug": "toyama",
+  "block": "総合"
+ },
+ "金沢星稜大学": {
+  "team": "金沢星稜大学",
+  "slug": "kanazawaseiryou",
+  "block": "総合"
+ },
  "信州大学": {
   "team": "信州大学",
   "slug": "shinshuu",
@@ -52,16 +62,6 @@
  "福井工業大学": {
   "team": "福井工業大学",
   "slug": "fukuikougyou",
-  "block": "総合"
- },
- "金沢星稜大学": {
-  "team": "金沢星稜大学",
-  "slug": "kanazawaseiryou",
-  "block": "総合"
- },
- "富山大学": {
-  "team": "富山大学",
-  "slug": "toyama",
   "block": "総合"
  },
  "福井大学": {

@@ -540,6 +540,21 @@
   "note": ""
  },
  {
+  "id": "2026-10-17-toyama-vs-kanazawaseiryou",
+  "date": "2026-10-17",
+  "time": "10:00",
+  "category": "北信越大学サッカーリーグ2部",
+  "home": "富山大学",
+  "away": "金沢星稜大学",
+  "home_slug": "toyama",
+  "away_slug": "kanazawaseiryou",
+  "venue": "オリバースポーツフィールド射水",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
   "id": "2026-10-17-shinshuu-vs-fukuikougyou",
   "date": "2026-10-17",
   "time": "10:00",
@@ -594,6 +609,21 @@
   "home_slug": "kanazawaseiryou",
   "away_slug": "shinshuu",
   "venue": "星稜高校グラウンド",
+  "status": "scheduled",
+  "home_score": null,
+  "away_score": null,
+  "note": ""
+ },
+ {
+  "id": "2026-11-01-fukuikougyou-vs-toyama",
+  "date": "2026-11-01",
+  "time": "10:00",
+  "category": "北信越大学サッカーリーグ2部",
+  "home": "福井工業大学",
+  "away": "富山大学",
+  "home_slug": "fukuikougyou",
+  "away_slug": "toyama",
+  "venue": "福井工業大学あわらキャンパス",
   "status": "scheduled",
   "home_score": null,
   "away_score": null,
