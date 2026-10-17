@@ -48,6 +48,8 @@ cta: sponsor
 
 大学の進路選びの段階から大学サッカーに関わりたい高校生の方は、[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてみてください。仕組みを知ったうえで[各節の結果まとめ](https://soccermania.jp/articles/index.html)や順位表を追いかけていけば、北信越の大学サッカーをより深く楽しめるはずです。1部の試合結果の一例として、[北信越大学サッカーリーグ1部 5月16日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260516/)で順位表の見方を実際の勝点で確認できます。<!-- index-lane-link -->
 
+2部の昇格争いを実際の勝点で追いたい方は、[北信越大学サッカーリーグ2部 5月16日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260516/)で上位2チームの動きを確認できます。<!-- index-lane-link -->
+
 ---
 
 出典：北信越大学サッカー連盟公式サイト（hufl.info）および全日本大学サッカー選手権大会公式情報の公開情報をもとに編集部作成
