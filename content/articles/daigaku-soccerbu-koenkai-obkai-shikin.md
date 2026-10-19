@@ -48,6 +48,8 @@ cta: listing
 
 後援会・OB会からの支援は、関係性の構築に時間がかかる一方、継続的な支援につながりやすいのが特徴です。ただし、これだけで運営費全体をまかなうのは現実的ではありません。[大学サッカー部の部費はいくら？大学公表の実例でみる部費と初期費用](https://soccermania.jp/articles/daigaku-soccerbu-unei-shikin/)で見たように、部費が資金の土台になる部活が多く、そこに後援会・OB会の支援、企業協賛、クラウドファンディング、助成金・補助金などを組み合わせるのが実際の形です。それぞれの特徴や使い分け方は、[大学サッカー部の資金調達方法まとめ](https://soccermania.jp/articles/daigaku-soccerbu-shikin-chotatsu-hikaku/)で整理しています。
 
+公的な制度を使う方法として、[大学サッカー部が使える助成金・補助金にはどんなものがあるか](https://soccermania.jp/articles/daigaku-soccerbu-joseikin-hojokin/)も確認しておくと選択肢が広がります。<!-- index-lane-link -->
+
 OBや父母の輪を超えて支援の幅を広げたい場合は、企業協賛やクラウドファンディングも選択肢になります。企業協賛の進め方は[大学サッカー部のスポンサー・協賛の記事](https://soccermania.jp/articles/daigaku-soccerbu-sponsor-kyousan/)、短期間で資金を集める方法は[大学サッカー部のクラウドファンディングの記事](https://soccermania.jp/articles/daigaku-soccerbu-crowdfunding-shikin/)で詳しく解説しています。
 
 企業協賛を探したい部活にとっては、部の紹介ページを掲載できるマッチングサービスを使うのも一つの方法です。ツナカレでは、部活の紹介ページを[無料で掲載](https://lp.tunakare.jp/s01/)でき、協賛に関心のある企業からの問い合わせにつながる仕組みを提供しています。OB会・後援会からの支援を大切にしながら、資金源そのものを分散させておくことが、運営の安定につながります。

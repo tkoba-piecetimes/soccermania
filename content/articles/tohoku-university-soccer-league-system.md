@@ -118,6 +118,8 @@ cta: sponsor
 
 終盤戦の状況は、[東北地区大学サッカーリーグ1部 10月3日の結果](https://soccermania.jp/articles/review-tohoku-1-20261003/index.html)と[2部 10月3日の結果](https://soccermania.jp/articles/review-tohoku-2-20261003/index.html)で、入替戦・昇格の争いがどう動いているかを追えます。
 
+1部の順位表を実際の勝点と得失点差で読み解く例としては、[東北地区大学サッカーリーグ1部 5月16日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260516/index.html)が参考になります。<!-- index-lane-link -->
+
 全国にどんな大学サッカーのリーグがあるのかを知りたい方は[大学サッカーのリーグは何種類？全国9地区と1部・2部の構成](https://soccermania.jp/articles/daigaku-soccer-league-shurui-9chiku/index.html)、大学の進路選びの段階から大学サッカーに関わりたい高校生の方は[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてください。
 
 ## よくある質問

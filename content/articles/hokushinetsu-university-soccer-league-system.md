@@ -50,6 +50,8 @@ cta: sponsor
 
 2部の昇格争いを実際の勝点で追いたい方は、[北信越大学サッカーリーグ2部 5月16日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260516/)で上位2チームの動きを確認できます。<!-- index-lane-link -->
 
+その翌週の1部の順位変動は、[北信越大学サッカーリーグ1部 5月23日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260523/)で勝点を見ながら追えます。<!-- index-lane-link -->
+
 ---
 
 出典：北信越大学サッカー連盟公式サイト（hufl.info）および全日本大学サッカー選手権大会公式情報の公開情報をもとに編集部作成

@@ -44,6 +44,8 @@ cta: sponsor
 
 その後の中盤戦で順位がどう変わったかは、[関西学生サッカーリーグ2部 5月17日の結果まとめ](../review-kansai-2-20260517/index.html)でご覧いただけます。<!-- index-lane-link -->
 
+同じ時期の1部の勝点争いと見比べたい方は、[関西学生サッカーリーグ1部 5月23日～24日の結果まとめ](../review-kansai-1-20260523/index.html)もあわせてご覧ください。<!-- index-lane-link -->
+
 ## 出典
 
 - [関西学生サッカー連盟「2026年度 第104回 関西学生サッカーリーグ」2部前期 日程（記録）](https://www.jufa-kansai.jp/meet/student/26data/nittei_2_1.html)
