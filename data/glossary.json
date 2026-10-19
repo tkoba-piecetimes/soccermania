@@ -1,0 +1,416 @@
+{
+  "terms": [
+    {
+      "id": "offside",
+      "term": "オフサイド",
+      "aliases": [],
+      "short": "攻撃側の選手が、味方がボールを蹴った瞬間に相手ゴールに近い不利な位置にいて、プレーに関わると取られる反則。",
+      "diagram": "soccer-offside-position",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "offside-position",
+      "term": "オフサイドポジション",
+      "aliases": [],
+      "short": "相手側の半分のピッチで、ボールと、相手の後ろから2人目の選手のどちらよりも相手ゴールに近い位置。そこにいるだけでは反則にならない。",
+      "diagram": "soccer-offside-position",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "penalty-area",
+      "term": "ペナルティエリア",
+      "aliases": [],
+      "short": "ゴール前にある大きな長方形の区画。ゴールを守る選手（ゴールキーパー）が手を使えるのは、この中だけ。",
+      "diagram": "soccer-pitch-areas",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "goal-area",
+      "term": "ゴールエリア",
+      "aliases": [],
+      "short": "ゴールのすぐ前にある小さな長方形の区画。ゴールキックのとき、ボールはこの中に置く。",
+      "diagram": "soccer-pitch-areas",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "halfway-line",
+      "term": "ハーフウェーライン",
+      "aliases": [],
+      "short": "ピッチを自陣側と相手側の半分に分ける、中央の線。試合の開始や再開のときはここから始める。",
+      "diagram": "soccer-pitch-areas",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "touchline",
+      "term": "タッチライン",
+      "aliases": [],
+      "short": "ピッチの長い辺の境界線。ボールの全体がこの線を越えると、スローインで再開する。",
+      "diagram": "soccer-pitch-areas",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "goal-line",
+      "term": "ゴールライン",
+      "aliases": [],
+      "short": "ピッチの短い辺の境界線で、ゴールが置かれている側の線。ボールの全体が越えるとプレーが止まる。",
+      "diagram": "soccer-pitch-areas",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "goal-kick",
+      "term": "ゴールキック",
+      "aliases": [],
+      "short": "攻撃側が最後に触れたボールがゴールラインを越えたとき、守備側がゴール前の小さな区画から蹴って再開する方法。",
+      "diagram": "soccer-restart-spots",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "corner-kick",
+      "term": "コーナーキック",
+      "aliases": [],
+      "short": "守備側が最後に触れたボールがゴールラインを越えたとき、攻撃側がピッチの角から蹴って再開する方法。",
+      "diagram": "soccer-restart-spots",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "throw-in",
+      "term": "スローイン",
+      "aliases": [],
+      "short": "ボールがタッチラインを越えたとき、最後に触れなかった側が両手で頭の後ろから投げ入れて再開する方法。",
+      "diagram": "soccer-restart-spots",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "free-kick",
+      "term": "フリーキック",
+      "aliases": [],
+      "short": "反則があった地点から、止めたボールを蹴って再開する方法。直接ゴールを狙える場合と、狙えない場合がある。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "restart",
+      "term": "リスタート",
+      "aliases": [],
+      "short": "プレーが止まったあと、スローインやキックなどで試合を再開すること。",
+      "diagram": "soccer-restart-spots",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "var",
+      "term": "VAR",
+      "aliases": [],
+      "short": "ビデオ映像を使って、得点や退場などの重要な判定を確認し、主審の判断を助ける仕組み。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "referee",
+      "term": "主審",
+      "aliases": [],
+      "short": "試合を進行し、反則などの判定を最終的に決める審判。ピッチの中で笛を吹く。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "assistant-referee",
+      "term": "副審",
+      "aliases": [],
+      "short": "タッチライン沿いで旗を使い、ボールが出た方向やオフサイドなどを主審に知らせる審判。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "foul",
+      "term": "反則",
+      "aliases": [
+        "ファウル"
+      ],
+      "short": "競技規則で禁じられているプレー。相手を押す・蹴る、手でボールを扱うなど。起きると相手ボールで再開される。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "caution",
+      "term": "警告",
+      "aliases": [
+        "イエローカード"
+      ],
+      "short": "反則に対して審判が出す注意。黄色いカードで知らされ、同じ試合で2回受けると退場になる。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "sending-off",
+      "term": "退場",
+      "aliases": [
+        "レッドカード"
+      ],
+      "short": "重い反則などで、審判に試合から外されること。赤いカードで知らされ、そのチームは1人少なく戦う。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "extra-time",
+      "term": "延長戦",
+      "aliases": [],
+      "short": "引き分けのとき、勝敗を決める必要がある試合で、前後半の90分に続けて行う追加の試合時間。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "pk-shootout",
+      "term": "PK戦",
+      "aliases": [
+        "ペナルティーシュートアウト"
+      ],
+      "short": "引き分けのとき、両チームが交互に、ゴールの正面からキーパーと1対1でキックして勝敗を決める方法。",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "goalkeeper",
+      "term": "ゴールキーパー",
+      "aliases": [
+        "GK"
+      ],
+      "short": "ゴールを守る選手で、チームで唯一、ペナルティエリア内で手を使える。パスをつなぐ役もこなす。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "defender",
+      "term": "ディフェンダー",
+      "aliases": [],
+      "short": "守備を受け持つ選手の総称。中央で守るセンターバックと、サイドで守るサイドバックに分かれる。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "midfielder",
+      "term": "ミッドフィルダー",
+      "aliases": [
+        "MF"
+      ],
+      "short": "守備と攻撃をつなぐ選手の総称。中盤でボールに触れる機会が多く、守備的・攻撃的な役割に分かれる。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "forward",
+      "term": "フォワード",
+      "aliases": [
+        "FW"
+      ],
+      "short": "相手ゴールの近くでプレーし、得点を取ることが最も大きな役割の選手。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "center-back",
+      "term": "センターバック",
+      "aliases": [],
+      "short": "守備の選手のうち、ゴール前の中央で相手の攻撃の選手を止める役。背が高く体の強い選手が多い。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "side-back",
+      "term": "サイドバック",
+      "aliases": [],
+      "short": "守備の選手のうち、左右の端で相手の攻撃を止める役。攻めるときは前に上がり、ゴール前へボールを蹴り込む。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "volante",
+      "term": "ボランチ",
+      "aliases": [],
+      "short": "中盤の中央で、守備をしながら後ろから攻撃を組み立てる選手。攻守のバランスを取る役。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "number-ten",
+      "term": "トップ下",
+      "aliases": [],
+      "short": "中盤の選手のうち、攻撃の最前線の選手のすぐ後ろでプレーし、チャンスを作ったりシュートを狙ったりする役。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "side-half",
+      "term": "サイドハーフ",
+      "aliases": [],
+      "short": "中盤の左右の端でプレーし、ドリブルで仕掛けたり、後ろの選手と協力して攻撃に厚みを出したりする役。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "winger",
+      "term": "ウイング",
+      "aliases": [],
+      "short": "相手ゴール近くの左右の端から、ドリブルやゴール前へのパスで得点に絡む攻撃の選手。",
+      "diagram": "soccer-formation-433",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "formation",
+      "term": "フォーメーション",
+      "aliases": [],
+      "short": "選手の並べ方。4-4-2のように、ゴールキーパーを除き、後ろから守備・中盤・攻撃の人数を並べて表す。",
+      "diagram": "soccer-formation-442",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "defensive-line",
+      "term": "最終ライン",
+      "aliases": [
+        "DFライン"
+      ],
+      "short": "ゴールキーパーの前で、横に並んで守る守備の選手たちの列。この位置の高さが、守り方の特徴になる。",
+      "diagram": "soccer-offside-position",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "line-control",
+      "term": "ラインコントロール",
+      "aliases": [],
+      "short": "守備の選手たちが横一列にそろい、前に出たり下がったりして、列の位置を保つこと。",
+      "diagram": "soccer-offside-position",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "build-up",
+      "term": "ビルドアップ",
+      "aliases": [],
+      "short": "自陣の後ろの方から、パスをつないで少しずつ前に進み、攻撃を組み立てること。",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "set-piece",
+      "term": "セットプレー",
+      "aliases": [],
+      "short": "プレーが止まったあと、コーナーキックやフリーキックなど、決まった形で再開する場面からの攻撃や守備。",
+      "diagram": "soccer-restart-spots",
+      "source": "https://www.jfa.jp/laws/soccer/2025_26/"
+    },
+    {
+      "id": "aerial-duel",
+      "term": "空中戦",
+      "aliases": [],
+      "short": "浮いたボールを、ジャンプして頭などで相手と競り合うプレー。守備でも攻撃でも起こる。",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "convert",
+      "term": "コンバート",
+      "aliases": [],
+      "short": "選手の担当する位置を変えること。例えば、攻撃の選手が守備の位置を任される。",
+      "diagram": "soccer-positions-names",
+      "source": "https://www.jleague.jp/a-to-z/position/"
+    },
+    {
+      "id": "league-match",
+      "term": "リーグ戦",
+      "aliases": [],
+      "short": "参加チームが一定の期間にわたって何試合も戦い、成績の合計で順位を決める大会の形式。",
+      "source": "https://www.jufa-kanto.jp/beginner/beginner1/"
+    },
+    {
+      "id": "round-robin",
+      "term": "総当たり",
+      "aliases": [
+        "総当たり戦"
+      ],
+      "short": "参加するチームが、ほかのすべてのチームと対戦する方式。2回戦総当たりなら、同じ相手と2回戦う。",
+      "source": "https://www.jufa-kanto.jp/beginner/beginner1/"
+    },
+    {
+      "id": "win-points",
+      "term": "勝点",
+      "aliases": [
+        "勝ち点"
+      ],
+      "short": "順位を決める点数。勝つと3点、引き分けで1点、負けると0点が加わり、合計が多いほど上位になる。",
+      "source": "https://www.jleague.jp/outline/j1.html"
+    },
+    {
+      "id": "goal-difference",
+      "term": "得失点差",
+      "aliases": [],
+      "short": "リーグ戦の順位を決める数字の一つ。取った点の合計から、取られた点の合計を引いたもの。",
+      "source": "https://www.jleague.jp/outline/j1.html"
+    },
+    {
+      "id": "division",
+      "term": "ディビジョン",
+      "aliases": [],
+      "short": "リーグの実力別の階層。大学リーグでは1部・2部・3部のように呼ぶ。上の部ほど強いチームが集まる。",
+      "diagram": "soccer-kanto-promotion-relegation",
+      "source": "https://www.jufa-kanto.jp/beginner/beginner1/"
+    },
+    {
+      "id": "promotion",
+      "term": "昇格",
+      "aliases": [],
+      "short": "下の階層から、上の階層に上がること。例えば2部のチームが、翌年から1部で戦うことになる。",
+      "diagram": "soccer-kanto-promotion-relegation",
+      "source": "https://www.jufa-kanto.jp/beginner/beginner1/"
+    },
+    {
+      "id": "relegation",
+      "term": "降格",
+      "aliases": [],
+      "short": "上の階層から、下の階層に下がること。例えば1部の下位のチームが、翌年から2部で戦うことになる。",
+      "diagram": "soccer-kanto-promotion-relegation",
+      "source": "https://www.jufa-kanto.jp/beginner/beginner1/"
+    },
+    {
+      "id": "promotion-playoff",
+      "term": "入替戦",
+      "aliases": [
+        "入れ替え戦",
+        "参入プレーオフ"
+      ],
+      "short": "リーグの境目にいる上と下のチームが、翌年にどちらの階層で戦うかをかけて行う試合。",
+      "diagram": "soccer-kanto-promotion-relegation",
+      "source": "https://www.jufa-kanto.jp/beginner/beginner1/"
+    },
+    {
+      "id": "selection",
+      "term": "セレクション",
+      "aliases": [],
+      "short": "大学や部が、入部を希望する高校生を集めて行う練習会や選考会。プレーを見て合否や評価を決める。",
+      "source": "https://passnavi.obunsha.co.jp/suisen/basic/sports/"
+    },
+    {
+      "id": "sports-suisen",
+      "term": "スポーツ推薦",
+      "aliases": [],
+      "short": "競技での実績を評価して合否を決める、大学の入試の方式。大学ごとに出願の条件や時期が違う。",
+      "source": "https://passnavi.obunsha.co.jp/suisen/basic/sports/"
+    },
+    {
+      "id": "tokutaisei",
+      "term": "特待生",
+      "aliases": [],
+      "short": "入学金や授業料の一部または全部が免除されるなど、学費の面で支援を受けられる学生。条件は大学ごとに違う。",
+      "source": "https://www.ssu.ac.jp/media/tokutai_2025.pdf"
+    },
+    {
+      "id": "koutairen",
+      "term": "高体連",
+      "aliases": [],
+      "short": "全国高等学校体育連盟の略。インターハイなど、高校の運動部の大会を運営する団体。",
+      "source": "https://www.zen-koutairen.com/"
+    },
+    {
+      "id": "youth",
+      "term": "ユース",
+      "aliases": [
+        "クラブユース"
+      ],
+      "short": "Jリーグのクラブなどが持つ、高校生年代の育成チーム。高校の部活とは別のクラブとして活動する。",
+      "source": "https://jfa.jp/match/takamado_jfa_u18_premier2025/about_premier.html"
+    },
+    {
+      "id": "referee-4kyu",
+      "term": "4級審判員",
+      "aliases": [],
+      "short": "日本サッカー協会の審判資格のうち、最初の級。地域の協会や連盟が主催する試合を担当できる。",
+      "source": "https://www.jfa.jp/referee/system/"
+    }
+  ]
+}
