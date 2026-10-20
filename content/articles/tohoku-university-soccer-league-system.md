@@ -121,6 +121,8 @@ cta: sponsor
 
 1部の順位表を実際の勝点と得失点差で読み解く例としては、[東北地区大学サッカーリーグ1部 5月16日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260516/index.html)が参考になります。<!-- index-lane-link -->
 
+5月下旬の節で1部の上位がどう動いたかは、[東北地区大学サッカーリーグ1部 5月23日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260523/index.html)で確認できます。<!-- index-lane-link -->
+
 全国にどんな大学サッカーのリーグがあるのかを知りたい方は[大学サッカーのリーグは何種類？全国9地区と1部・2部の構成](https://soccermania.jp/articles/daigaku-soccer-league-shurui-9chiku/index.html)、大学の進路選びの段階から大学サッカーに関わりたい高校生の方は[サッカー部への進路の選び方](https://soccermania.jp/articles/daigaku-soccer-shinro-suisen-selection/index.html)もあわせて参考にしてください。
 
 ## よくある質問

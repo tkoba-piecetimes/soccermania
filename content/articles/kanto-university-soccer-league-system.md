@@ -83,6 +83,8 @@ JUFA関東の公式説明（[大学サッカー基礎知識](https://www.jufa-ka
 
 1部の勝点の積み上がり方を1節単位で見るなら、国士舘大学が日本体育大学に4-1で勝った5月5日の[関東大学サッカーリーグ1部 第6節の結果](https://soccermania.jp/articles/review-kanto-1-sec06/index.html)も一例になります。<!-- index-lane-link -->
 
+2部の1部昇格圏・参入プレーオフ圏の争いが5月下旬にどうなっているかは、[関東大学サッカーリーグ戦2部 第9節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec09/index.html)の順位表で確認できます。<!-- index-lane-link -->
+
 ## よくある質問
 
 ### Q. 関東大学サッカーリーグは何部までありますか？

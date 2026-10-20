@@ -40,6 +40,8 @@ cta: sponsor
 
 さらに2部の勝点争いが続いた5月16日の節の結果は、[東北地区大学サッカーリーグ2部 5月16日の結果まとめ](../review-tohoku-2-20260516/index.html)で確認できます。<!-- index-lane-link -->
 
+その後の5月23日の節で2部の順位がどう入れ替わったかは、[東北地区大学サッカーリーグ2部 5月23日の結果まとめ](../review-tohoku-2-20260523/index.html)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東北サッカー協会](https://www.jfa.jp/match_47fa/102_tohoku/2026_university/div2/thfa/schedule.html)

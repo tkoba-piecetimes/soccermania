@@ -29,6 +29,8 @@ cta: sponsor
 | 7 | [東北工業大学](../../tohoku-1-2026/clubs/tohoku-kogyo/index.html) | 6 | -30 |
 | 8 | [ノースアジア大学](../../tohoku-1-2026/clubs/north-asia/index.html) | 0 | -59 |
 
+この節から約3週間後の首位争いの変化は、[東北地区大学サッカーリーグ1部 5月23日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260523/index.html)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [東北サッカー協会](https://www.jfa.jp/match_47fa/102_tohoku/2026_university/div1/thfa/schedule.html)
