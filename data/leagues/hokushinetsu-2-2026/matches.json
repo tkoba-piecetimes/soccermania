@@ -549,9 +549,9 @@
   "home_slug": "toyama",
   "away_slug": "kanazawaseiryou",
   "venue": "オリバースポーツフィールド射水",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -564,9 +564,9 @@
   "home_slug": "shinshuu",
   "away_slug": "fukuikougyou",
   "venue": "信州大学旭町グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 2,
   "note": ""
  },
  {

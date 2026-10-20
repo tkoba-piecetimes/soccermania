@@ -113,6 +113,62 @@
    "goals_for": 8
   },
   {
+   "team": "金沢星稜大学",
+   "slug": "kanazawaseiryou",
+   "points": 3,
+   "games": 1,
+   "wins": 1,
+   "draws": 0,
+   "losses": 0,
+   "gf": 4,
+   "ga": 0,
+   "rank": 9,
+   "goal_diff": "+4",
+   "goals_for": 4
+  },
+  {
+   "team": "福井工業大学",
+   "slug": "fukuikougyou",
+   "points": 3,
+   "games": 1,
+   "wins": 1,
+   "draws": 0,
+   "losses": 0,
+   "gf": 2,
+   "ga": 1,
+   "rank": 10,
+   "goal_diff": "+1",
+   "goals_for": 2
+  },
+  {
+   "team": "信州大学",
+   "slug": "shinshuu",
+   "points": 0,
+   "games": 1,
+   "wins": 0,
+   "draws": 0,
+   "losses": 1,
+   "gf": 1,
+   "ga": 2,
+   "rank": 11,
+   "goal_diff": "-1",
+   "goals_for": 1
+  },
+  {
+   "team": "富山大学",
+   "slug": "toyama",
+   "points": 0,
+   "games": 1,
+   "wins": 0,
+   "draws": 0,
+   "losses": 1,
+   "gf": 0,
+   "ga": 4,
+   "rank": 12,
+   "goal_diff": "-4",
+   "goals_for": 0
+  },
+  {
    "team": "福井県立大",
    "slug": "fukuikenritsu",
    "points": 0,
@@ -122,7 +178,7 @@
    "losses": 8,
    "gf": 3,
    "ga": 97,
-   "rank": 9,
+   "rank": 13,
    "goal_diff": "-94",
    "goals_for": 3
   }
