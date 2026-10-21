@@ -50,7 +50,7 @@ cta: none
 
 ## リーグのレベルから大学を選ぶという視点
 
-進路選びでは「どの大学に入るか」だけでなく「どのリーグ・ディビジョンでプレーしたいか」という視点も欠かせません。[関東大学サッカーリーグの仕組み](https://soccermania.jp/articles/kanto-university-soccer-league-system/)で紹介しているように、関東だけでも1部から3部までディビジョンが分かれています。[関東大学サッカーリーグ1部の順位表](https://soccermania.jp/kanto-1-2026/standings/index.html)を眺めてみると、常連の強豪校とシーズンごとに入れ替わる顔ぶれの両方があることが分かり、自分がどのレベルで4年間を戦いたいかをイメージする材料になります。
+進路選びでは「どの大学に入るか」だけでなく「どのリーグ・ディビジョンでプレーしたいか」という視点も欠かせません。[関東大学サッカーリーグの仕組み](https://soccermania.jp/articles/kanto-university-soccer-league-system/)で紹介しているように、関東だけでも1部から3部までディビジョンが分かれています。[関東大学サッカーリーグ1部の順位表](https://soccermania.jp/kanto-1-2026/standings/index.html)を眺めてみると、常連の強豪校とシーズンごとに入れ替わる顔ぶれの両方があることが分かり、自分がどのレベルで4年間を戦いたいかをイメージする材料になります。卒業後にスポーツ業界で働くことまで視野に入れる人は、[大学サッカー部出身者がスポーツ業界へ就職するには](https://soccermania.jp/articles/daigaku-soccerbu-sports-gyokai-career/)も参考になります。<!-- index-lane-link -->
 
 ## 進路選びで後悔しないためのチェックリスト
 
