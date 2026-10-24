@@ -722,7 +722,7 @@
  {
   "id": "2026-11-07-sendai-u-vs-hachinohe-gakuin",
   "date": "2026-11-07",
-  "time": "11:00",
+  "time": "13:00",
   "category": "東北地区大学サッカーリーグ1部",
   "home": "仙台大学",
   "away": "八戸学院大学",
@@ -744,9 +744,9 @@
   "home_slug": "fuji-u",
   "away_slug": "touhokugakuin",
   "venue": "花巻スポーツキャンプ村",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 4,
   "note": ""
  },
  {
@@ -759,9 +759,9 @@
   "home_slug": "touhoku",
   "away_slug": "tohoku-kogyo",
   "venue": "女川町総合運動場第一多目的運動場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -782,7 +782,7 @@
  {
   "id": "2026-10-31-sendai-u-vs-fuji-u",
   "date": "2026-10-31",
-  "time": "11:00",
+  "time": "13:00",
   "category": "東北地区大学サッカーリーグ1部",
   "home": "仙台大学",
   "away": "富士大学",

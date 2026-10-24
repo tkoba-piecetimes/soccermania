@@ -999,9 +999,9 @@
   "home_slug": "akita",
   "away_slug": "iwate",
   "venue": "秋田大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1014,9 +1014,9 @@
   "home_slug": "aomori",
   "away_slug": "nihondaigakukougakubu",
   "venue": "青森中央学院大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 8,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1029,9 +1029,9 @@
   "home_slug": "hachinohekougyou",
   "away_slug": "yamagata",
   "venue": "八戸工業大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1044,9 +1044,9 @@
   "home_slug": "ishinomakisenshuu",
   "away_slug": "touhokufukushi",
   "venue": "セイホクパークFF1",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1059,9 +1059,9 @@
   "home_slug": "hirosaki",
   "away_slug": "fukushima",
   "venue": "岩木山運動公園",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1074,9 +1074,9 @@
   "home_slug": "aomorichuuougakuin",
   "away_slug": "touhokukouekibunka",
   "venue": "青森中央学院大学サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
