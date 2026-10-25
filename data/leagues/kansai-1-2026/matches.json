@@ -1539,9 +1539,9 @@
   "home_slug": "ritsumeikan",
   "away_slug": "konan",
   "venue": "高槻市立萩谷総合公園サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1554,9 +1554,9 @@
   "home_slug": "kwansei-gakuin",
   "away_slug": "osaka-taiiku",
   "venue": "高槻市立萩谷総合公園サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1569,9 +1569,9 @@
   "home_slug": "doshisha",
   "away_slug": "kansai-u",
   "venue": "関西大学（千里山中央G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1584,9 +1584,9 @@
   "home_slug": "kyoto-sangyo",
   "away_slug": "hannan",
   "venue": "関西大学（千里山中央G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1599,9 +1599,9 @@
   "home_slug": "momoyama-gakuin",
   "away_slug": "osaka-shogyo",
   "venue": "桃山学院大学（メインG）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -1614,9 +1614,9 @@
   "home_slug": "osaka-gakuin",
   "away_slug": "biwako-seikei",
   "venue": "桃山学院大学（メインG）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
