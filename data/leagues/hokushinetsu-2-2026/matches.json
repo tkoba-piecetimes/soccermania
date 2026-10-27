@@ -579,9 +579,9 @@
   "home_slug": "kanazawaseiryou",
   "away_slug": "fukuikougyou",
   "venue": "石川県サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -594,9 +594,9 @@
   "home_slug": "shinshuu",
   "away_slug": "toyama",
   "venue": "信州大学旭町グラウンド",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -639,9 +639,9 @@
   "home_slug": "fukui",
   "away_slug": "kanazawakougyou",
   "venue": "テクノポート福井芝生広場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 7,
   "note": ""
  }
 ]
