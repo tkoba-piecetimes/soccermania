@@ -95,7 +95,7 @@ cta: sponsor
 - 学年別内訳を比べると、学年が上がるほど増える大学・減る大学・横ばいの大学があり、集計対象（男女別・学生スタッフの扱いなど）が大学ごとに異なるため単純比較はできません
 - 部員数が多い大学の多くは、Iリーグや社会人リーグへの登録、複数チーム編成によって出場機会を確保する仕組みを持っています
 
-部員数はあくまで一つの判断材料です。気になる大学の実際の成績や試合日程は、本サイトの[関西1部](https://soccermania.jp/kansai-1-2026/teams/index.html)・[関東1部](https://soccermania.jp/kanto-1-2026/teams/index.html)・[関東2部](https://soccermania.jp/kanto-2-2026/teams/index.html)・[関西2部](https://soccermania.jp/kansai-2-2026/teams/index.html)の各チーム一覧ページで確認できます。
+部員数はあくまで一つの判断材料です。気になる大学の実際の成績や試合日程は、本サイトの[関西1部](https://soccermania.jp/kansai-1-2026/teams/index.html)・[関東1部](https://soccermania.jp/kanto-1-2026/teams/index.html)・[関東2部](https://soccermania.jp/kanto-2-2026/teams/index.html)・[関西2部](https://soccermania.jp/kansai-2-2026/teams/index.html)の各チーム一覧ページで確認できます。関東2部の大学の直近の戦いぶりは、[関東大学サッカーリーグ戦2部 第11節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec11/)も参考になります。<!-- index-lane-link -->
 
 ## 出典
 

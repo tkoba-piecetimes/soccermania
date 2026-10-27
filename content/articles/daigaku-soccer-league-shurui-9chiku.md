@@ -71,7 +71,7 @@ cta: sponsor
 
 出典：[一般社団法人東北サッカー協会](https://tohoku-fa.jp/college/outline.html)、[北信越大学サッカー連盟](https://hufl.info/)
 
-階層が少ないということは、1部と2部のあいだの入れ替えが、そのままリーグ全体の顔ぶれの入れ替わりに直結しやすいということでもあります。関東のように3部・都県リーグまで段階がある地区とは、昇格・降格が持つ意味合いが変わってきます。各リーグの入替戦のルールや順位の決まり方は、[東北地区大学サッカーリーグの仕組み](https://soccermania.jp/articles/tohoku-university-soccer-league-system/)、[北信越大学サッカーリーグの仕組み](https://soccermania.jp/articles/hokushinetsu-university-soccer-league-system/)でそれぞれ解説しています。
+階層が少ないということは、1部と2部のあいだの入れ替えが、そのままリーグ全体の顔ぶれの入れ替わりに直結しやすいということでもあります。関東のように3部・都県リーグまで段階がある地区とは、昇格・降格が持つ意味合いが変わってきます。各リーグの入替戦のルールや順位の決まり方は、[東北地区大学サッカーリーグの仕組み](https://soccermania.jp/articles/tohoku-university-soccer-league-system/)、[北信越大学サッカーリーグの仕組み](https://soccermania.jp/articles/hokushinetsu-university-soccer-league-system/)でそれぞれ解説しています。東北2部の順位表の見え方は、[東北地区大学サッカーリーグ2部 5月30日の結果まとめ](https://soccermania.jp/articles/review-tohoku-2-20260530/)で確認できます。<!-- index-lane-link -->
 
 ## 同じ「1部」でもリーグの規模は違う — 2026年シーズンの所属校数
 
