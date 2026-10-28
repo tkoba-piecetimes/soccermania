@@ -4,7 +4,7 @@ description: 北信越大学サッカーリーグの1部・2部の構成、昇�
 category: 観戦ガイド
 level: 入門
 date: 2026-09-04
-updated: 2026-10-20
+updated: 2026-10-28
 cta: sponsor
 ---
 
@@ -111,6 +111,8 @@ JFA（日本サッカー協会）の[第74回全日本大学サッカー選手�
 最新の結果は、[北信越大学サッカーリーグ1部 10月10日～11日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20261010/)と[北信越大学サッカーリーグ2部 10月3日～4日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20261003/)で確認できます。順位表の見方を実際の勝点で確かめたい方は、[5月16日の1部の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260516/)もご覧ください。<!-- index-lane-link -->
 
 2部の5月下旬の動きは、[北信越大学サッカーリーグ2部 5月23日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260523/)で確認できます。<!-- index-lane-link -->
+
+2部の7月上旬に首位争いがどうなっていたかは、[北信越大学サッカーリーグ2部 7月4日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260704/)で確認できます。<!-- index-lane-link -->
 
 ---
 

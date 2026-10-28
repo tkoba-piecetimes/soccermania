@@ -74,6 +74,8 @@ cta: shukatsu
 
 体育会サッカー部の経験は、[サッカー部での経験を就活でどう評価してもらうか](https://soccermania.jp/articles/taiikukai-soccer-shukatsu-tsuyomi/)という観点でも触れているとおり、伝え方次第で幅広い業界・職種に応用できます。業界を絞り込む前に、まずは自分の強みの棚卸しから始めてみましょう。棚卸しした経験をエントリーシートに落とし込む手順は、[サッカー部の経験でガクチカ・自己PRを書くコツ](https://soccermania.jp/articles/daigaku-soccerbu-gakuchika-jikopr-kakikata/)で構成とNG例を解説しています。<!-- index-lane-link -->
 
+インターンで仕事内容を確かめる場合は、部活と両立しやすい形式や参加時期を[大学サッカー部員の就活インターンはいつから？部活と両立するスケジュールと選び方](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-intern-ryoritsu/)で確認しておくと計画を立てやすくなります。<!-- index-lane-link -->
+
 ## OBの実例：仕事選びと部活動経験のつながり
 
 大学サッカー部出身のOBが語った内容のうち、仕事選びに関わるものを紹介します（取材記事にもとづく。個人が特定されないよう、役割と競技のみ記載しています）。
