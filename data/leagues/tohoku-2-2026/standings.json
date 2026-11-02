@@ -59,16 +59,16 @@
   {
    "team": "東北公益文科大学",
    "slug": "touhokukouekibunka",
-   "points": 22,
-   "games": 10,
+   "points": 23,
+   "games": 11,
    "wins": 7,
-   "draws": 1,
+   "draws": 2,
    "losses": 2,
-   "gf": 38,
-   "ga": 21,
+   "gf": 40,
+   "ga": 23,
    "rank": 5,
    "goal_diff": "+17",
-   "goals_for": 38
+   "goals_for": 40
   },
   {
    "team": "東北福祉大学",
@@ -129,16 +129,16 @@
   {
    "team": "福島大学",
    "slug": "fukushima",
-   "points": 8,
-   "games": 10,
+   "points": 9,
+   "games": 11,
    "wins": 2,
-   "draws": 2,
+   "draws": 3,
    "losses": 6,
-   "gf": 10,
-   "ga": 16,
+   "gf": 12,
+   "ga": 18,
    "rank": 10,
    "goal_diff": "-6",
-   "goals_for": 10
+   "goals_for": 12
   },
   {
    "team": "宮城教育大学",
@@ -157,30 +157,30 @@
   {
    "team": "八戸工業大学",
    "slug": "hachinohekougyou",
-   "points": 3,
-   "games": 11,
+   "points": 4,
+   "games": 12,
    "wins": 1,
-   "draws": 0,
+   "draws": 1,
    "losses": 10,
-   "gf": 11,
-   "ga": 52,
+   "gf": 13,
+   "ga": 54,
    "rank": 12,
    "goal_diff": "-41",
-   "goals_for": 11
+   "goals_for": 13
   },
   {
    "team": "日本大学工学部",
    "slug": "nihondaigakukougakubu",
-   "points": 3,
-   "games": 11,
+   "points": 4,
+   "games": 12,
    "wins": 1,
-   "draws": 0,
+   "draws": 1,
    "losses": 10,
-   "gf": 6,
-   "ga": 48,
+   "gf": 8,
+   "ga": 50,
    "rank": 13,
    "goal_diff": "-42",
-   "goals_for": 6
+   "goals_for": 8
   }
  ]
 }

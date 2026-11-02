@@ -1104,9 +1104,9 @@
   "home_slug": "nihondaigakukougakubu",
   "away_slug": "hachinohekougyou",
   "venue": "十六沼公園サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1164,9 +1164,9 @@
   "home_slug": "fukushima",
   "away_slug": "touhokukouekibunka",
   "venue": "十六沼公園サッカー場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  }
 ]
