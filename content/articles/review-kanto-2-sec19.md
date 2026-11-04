@@ -36,6 +36,8 @@ JR東日本カップ2026 第100回関東大学サッカーリーグ戦2部の第
 | 11 | [拓殖大学](../../kanto-2-2026/clubs/takushoku/index.html) | 16 | -8 |
 | 12 | [専修大学](../../kanto-2-2026/clubs/senshu/index.html) | 15 | -6 |
 
+シーズン中盤の第12節時点の順位との違いは、[関東大学サッカーリーグ戦2部 第12節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec12/index.html)<!-- index-lane-link -->と見比べると分かります。
+
 ## 出典
 
 - [関東大学サッカー連盟](https://www.jufa-kanto.jp/)

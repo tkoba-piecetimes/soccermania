@@ -114,6 +114,8 @@ JFA（日本サッカー協会）の[第74回全日本大学サッカー選手�
 
 2部の7月上旬に首位争いがどうなっていたかは、[北信越大学サッカーリーグ2部 7月4日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260704/)で確認できます。<!-- index-lane-link -->
 
+秋のシーズン再開直後の2部は、[北信越大学サッカーリーグ2部 9月5日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260905/index.html)<!-- index-lane-link -->で勝点の動きを追えます。
+
 ---
 
 出典：

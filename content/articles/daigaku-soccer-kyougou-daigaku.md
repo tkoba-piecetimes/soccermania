@@ -126,7 +126,7 @@ cta: sponsor
 | 1 | 富士大学 | 17 | 5勝2分0敗 |
 | 3 | 仙台大学 | 16 | 5勝1分1敗 |
 
-最新の順位は[東北1部順位表](https://soccermania.jp/tohoku-1-2026/standings/index.html)をご確認ください。
+最新の順位は[東北1部順位表](https://soccermania.jp/tohoku-1-2026/standings/index.html)をご確認ください。シーズン中盤の東北1部の並びは、[東北地区大学サッカーリーグ1部 7月11日～12日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260711/index.html)<!-- index-lane-link -->で試合ごとに振り返れます。
 
 ## 北信越の強豪 — 新潟医療福祉大学と松本大学
 

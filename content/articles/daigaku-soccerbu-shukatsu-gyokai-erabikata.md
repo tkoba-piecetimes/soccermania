@@ -39,7 +39,7 @@ cta: shukatsu
 
 いずれも共通しているのは、「一人で完結する仕事」よりも「人との関係を築きながら目標に向かう仕事」が多いという点です。サッカー部でチームメイトやOB・OGと築いてきた関係性の作り方は、こうした業界で強みとして語れる場合があります。
 
-業界ごとの詳しい仕事内容は、[金融業界](https://soccermania.jp/articles/daigaku-soccerbu-kinyu-gyokai-career/)・[商社](https://soccermania.jp/articles/daigaku-soccerbu-shousha-gyokai-career/)・[IT業界](https://soccermania.jp/articles/daigaku-soccerbu-it-gyokai-career/)・[コンサル業界](https://soccermania.jp/articles/daigaku-soccerbu-consul-gyokai-career/)・[スポーツ業界](https://soccermania.jp/articles/daigaku-soccerbu-sports-gyokai-career/)の各記事で解説しています。
+業界ごとの詳しい仕事内容は、[金融業界](https://soccermania.jp/articles/daigaku-soccerbu-kinyu-gyokai-career/)・[商社](https://soccermania.jp/articles/daigaku-soccerbu-shousha-gyokai-career/)・[IT業界](https://soccermania.jp/articles/daigaku-soccerbu-it-gyokai-career/)・[コンサル業界](https://soccermania.jp/articles/daigaku-soccerbu-consul-gyokai-career/)・[スポーツ業界](https://soccermania.jp/articles/daigaku-soccerbu-sports-gyokai-career/)の各記事で解説しています。民間企業以外の選択肢として、体力試験のある警察官・消防官などの公務員を考える場合は、[大学サッカー部出身者は公務員に向いている？警察官・消防官で活きる経験](https://soccermania.jp/articles/daigaku-soccerbu-koumuin-career/index.html)<!-- index-lane-link -->も参考になります。
 
 ## 職種で選ぶという視点（営業だけが選択肢ではない）
 
