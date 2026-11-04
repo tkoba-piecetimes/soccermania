@@ -29,6 +29,20 @@
    "goals_for": 19
   },
   {
+   "team": "東北公益文科大学",
+   "slug": "touhokukouekibunka",
+   "points": 26,
+   "games": 12,
+   "wins": 8,
+   "draws": 2,
+   "losses": 2,
+   "gf": 49,
+   "ga": 24,
+   "rank": 3,
+   "goal_diff": "+25",
+   "goals_for": 49
+  },
+  {
    "team": "石巻専修大学",
    "slug": "ishinomakisenshuu",
    "points": 25,
@@ -38,7 +52,7 @@
    "losses": 3,
    "gf": 47,
    "ga": 27,
-   "rank": 3,
+   "rank": 4,
    "goal_diff": "+20",
    "goals_for": 47
   },
@@ -52,23 +66,9 @@
    "losses": 3,
    "gf": 31,
    "ga": 12,
-   "rank": 4,
+   "rank": 5,
    "goal_diff": "+19",
    "goals_for": 31
-  },
-  {
-   "team": "東北公益文科大学",
-   "slug": "touhokukouekibunka",
-   "points": 23,
-   "games": 11,
-   "wins": 7,
-   "draws": 2,
-   "losses": 2,
-   "gf": 40,
-   "ga": 23,
-   "rank": 5,
-   "goal_diff": "+17",
-   "goals_for": 40
   },
   {
    "team": "東北福祉大学",
@@ -116,15 +116,15 @@
    "team": "弘前大学",
    "slug": "hirosaki",
    "points": 12,
-   "games": 11,
+   "games": 12,
    "wins": 4,
    "draws": 0,
-   "losses": 7,
-   "gf": 17,
-   "ga": 32,
+   "losses": 8,
+   "gf": 18,
+   "ga": 41,
    "rank": 9,
-   "goal_diff": "-15",
-   "goals_for": 17
+   "goal_diff": "-23",
+   "goals_for": 18
   },
   {
    "team": "福島大学",

@@ -384,9 +384,9 @@
   "home_slug": "hirosaki",
   "away_slug": "touhokukouekibunka",
   "venue": "未定",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 9,
   "note": ""
  },
  {
