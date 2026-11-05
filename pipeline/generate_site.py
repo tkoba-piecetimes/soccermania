@@ -828,6 +828,28 @@ def system_guide_note(code, R, articles):
             f'<a href="{R}articles/{g[0]}/index.html">{escape(g[1])}</a>で解説しています。</p>')
 
 
+# インデックス未登録レーンの内部リンク補強（2026-11-05）。(リーグコード, ページ種別) -> (記事slug, アンカー, 導入文)
+LANE_LINKS = {
+    ("kansai-2-2026", "standings"): ("review-kansai-2-20260627", "関西学生サッカーリーグ2部 6月27日の結果まとめ", "6月下旬の節での順位の動きは"),
+    ("kansai-2-2026", "schedule"): ("review-kansai-2-20260627", "関西学生サッカーリーグ2部 6月27日の結果まとめ", "6月27日の節のスコアと順位表は"),
+    ("kansai-2-2026", "index"): ("review-kansai-2-20260524", "関西学生サッカーリーグ2部 5月24日の結果まとめ", "5月下旬の節の結果は"),
+    ("kansai-2-2026", "teams"): ("review-kansai-2-20260524", "関西学生サッカーリーグ2部 5月24日の結果まとめ", "各チームの5月下旬の戦いぶりは"),
+    ("tohoku-2-2026", "schedule"): ("review-tohoku-2-20260627", "東北地区大学サッカーリーグ2部 6月27日の結果まとめ", "6月27日の節の結果と順位表は"),
+    ("tohoku-2-2026", "standings"): ("review-tohoku-2-20260627", "東北地区大学サッカーリーグ2部 6月27日の結果まとめ", "6月下旬の2部の勝点争いは"),
+    ("kansai-1-2026", "standings"): ("review-kansai-1-20260919", "関西学生サッカーリーグ1部 9月19日の結果まとめ", "秋の1部の勝点の動きは"),
+    ("kansai-1-2026", "schedule"): ("review-kansai-1-20260919", "関西学生サッカーリーグ1部 9月19日の結果まとめ", "9月19日の節のスコアは"),
+}
+
+
+def lane_note(code, kind, R):
+    v = LANE_LINKS.get((code, kind))
+    if not v:
+        return ""
+    slug, anchor, lead = v
+    return (f'<!-- index-lane-link --><p class="note">{escape(lead)}'
+            f'<a href="{R}articles/{slug}/index.html">{escape(anchor)}</a>で確認できます。</p>')
+
+
 def build_league(lg, articles):
     code = lg["code"]
     meta, matches, standings = lg["meta"], lg["matches"], lg["standings"]
@@ -860,6 +882,7 @@ def build_league(lg, articles):
         if entries:
             body += '<section><h2>順位表</h2>' + standings_table(block, entries, L) + '</section>'
     body += system_guide_note(code, R, articles)
+    body += lane_note(code, "index", R)
     write_page(code, page(R, f'{league_name} 試合結果・日程・順位表 | サッカーマニア', body, meta,
                           path=f"{code}/",
                           desc=f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。',
@@ -878,6 +901,7 @@ def build_league(lg, articles):
     if awaiting:
         body += ('<section><h2>結果反映待ちの試合</h2>'
                  + match_table("".join(match_row(m, L) for m in awaiting)) + "</section>")
+    body += lane_note(code, "schedule", R)
     body += contact_cta(R, "schedule")
     write_page(f"{code}/schedule",
                page(R, f'試合日程・結果 | {league_name} | サッカーマニア', body, meta,
@@ -890,6 +914,7 @@ def build_league(lg, articles):
             body += standings_table(block, entries, L)
     body += '<p class="note">※順位・勝ち点は勝ち点3・分け1・敗け0の集計です。関西学生サッカー連盟は公式順位表、関東・東北・北信越は試合結果から編集部が算出した参考値です。公式発表は各連盟の発表をご確認ください。</p>'
     body += system_guide_note(code, R, articles)
+    body += lane_note(code, "standings", R)
     body += contact_cta(R, "standings")
     write_page(f"{code}/standings",
                page(R, f'順位表 | {league_name} | サッカーマニア', body, meta,
@@ -901,6 +926,7 @@ def build_league(lg, articles):
         f'<li><a href="{L}clubs/{t["slug"]}/index.html">{escape(t["team"])}</a></li>'
         for t in sorted(lg["teams"].values(), key=lambda x: x["team"]))
     body += f'<ul class="team-list">{links}</ul>'
+    body += lane_note(code, "teams", R)
     write_page(f"{code}/teams",
                page(R, f'チーム一覧 | {league_name} | サッカーマニア', body, meta,
                     path=f"{code}/teams/", desc=f'{league_name}参加全チームの一覧。',
