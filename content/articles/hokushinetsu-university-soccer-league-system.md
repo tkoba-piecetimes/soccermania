@@ -116,6 +116,8 @@ JFA（日本サッカー協会）の[第74回全日本大学サッカー選手�
 
 秋のシーズン再開直後の2部は、[北信越大学サッカーリーグ2部 9月5日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-2-20260905/index.html)<!-- index-lane-link -->で勝点の動きを追えます。
 
+1部の5月末に上位がどう並んでいたかは、[北信越大学サッカーリーグ1部 5月30日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260530/)で確認できます。<!-- index-lane-link -->
+
 ---
 
 出典：
