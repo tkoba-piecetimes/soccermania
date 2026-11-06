@@ -1719,9 +1719,9 @@
   "home_slug": "oosakakeizai",
   "away_slug": "kyoutotachibana",
   "venue": "KYOTO TACHIBANA STADIUM",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1734,9 +1734,9 @@
   "home_slug": "ryuukoku",
   "away_slug": "oosakasangyou",
   "venue": "KYOTO TACHIBANA STADIUM",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1749,9 +1749,9 @@
   "home_slug": "kansaikokusai",
   "away_slug": "ottemongakuin",
   "venue": "追手門学院大学(第一G)",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 4,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1764,9 +1764,9 @@
   "home_slug": "kinki",
   "away_slug": "kansaifukushi",
   "venue": "追手門学院大学(第一G)",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1779,9 +1779,9 @@
   "home_slug": "kyoutosentankagaku",
   "away_slug": "oosakakokusai",
   "venue": "京都先端科学大学（人工芝Ｇ）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1794,9 +1794,9 @@
   "home_slug": "koubegakuin",
   "away_slug": "oosaka",
   "venue": "京都先端科学大学（人工芝Ｇ）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 4,
   "note": ""
  },
  {
