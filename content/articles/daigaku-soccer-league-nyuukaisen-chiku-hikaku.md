@@ -64,6 +64,8 @@ cta: sponsor
 
 同じ東北1部の7月上旬の勝点と得失点差は、[東北地区大学サッカーリーグ1部 7月4日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20260704/)で確認できます。<!-- index-lane-link -->
 
+東北2部の昇格争いは、秋田大学と東北福祉大学がともに勝点15で並んだ[東北地区大学サッカーリーグ2部 7月4日の結果まとめ](https://soccermania.jp/articles/review-tohoku-2-20260704/index.html)の順位表で、昇格戦圏の目安を確認できます。<!-- index-lane-link -->
+
 ---
 
 出典：

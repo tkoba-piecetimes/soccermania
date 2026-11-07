@@ -97,6 +97,8 @@ cta: sponsor
 
 部員数はあくまで一つの判断材料です。気になる大学の実際の成績や試合日程は、本サイトの[関西1部](https://soccermania.jp/kansai-1-2026/teams/index.html)・[関東1部](https://soccermania.jp/kanto-1-2026/teams/index.html)・[関東2部](https://soccermania.jp/kanto-2-2026/teams/index.html)・[関西2部](https://soccermania.jp/kansai-2-2026/teams/index.html)の各チーム一覧ページで確認できます。関東2部の大学の直近の戦いぶりは、[関東大学サッカーリーグ戦2部 第11節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec11/)も参考になります。関西1部の所属校がシーズン中盤にどのような戦いをしていたかは、[関西学生サッカーリーグ1部 7月11日～12日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260711/index.html)<!-- index-lane-link -->で確認できます。<!-- index-lane-link -->
 
+関西2部に所属する大阪経済大学（117名）がシーズン終盤にどの順位にいたかは、[関西学生サッカーリーグ2部 9月12日～13日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20260912/index.html)の順位表で確認できます。<!-- index-lane-link -->
+
 その直前の節で、関西1部の首位争いと順位表がどう動いていたかは、[関西学生サッカーリーグ1部 7月4日～5日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260704/)で確認できます。<!-- index-lane-link -->
 
 ## 出典
