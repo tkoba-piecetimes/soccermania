@@ -834,9 +834,9 @@
   "home_slug": "tohoku-kogyo",
   "away_slug": "higashinihon-kokusai",
   "venue": "めぐみ野サッカー場C",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  }
 ]
