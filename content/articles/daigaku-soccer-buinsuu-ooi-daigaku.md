@@ -99,6 +99,8 @@ cta: sponsor
 
 関西2部に所属する大阪経済大学（117名）がシーズン終盤にどの順位にいたかは、[関西学生サッカーリーグ2部 9月12日～13日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20260912/index.html)の順位表で確認できます。<!-- index-lane-link -->
 
+その1週間後の関西2部の勝点の並びは、[関西学生サッカーリーグ2部 9月20日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20260920/)で追えます。<!-- index-lane-link -->
+
 その直前の節で、関西1部の首位争いと順位表がどう動いていたかは、[関西学生サッカーリーグ1部 7月4日～5日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260704/)で確認できます。<!-- index-lane-link -->
 
 ## 出典

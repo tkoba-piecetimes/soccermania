@@ -129,6 +129,8 @@ cta: sponsor
 
 最新の順位表は[関西1部順位表](https://soccermania.jp/kansai-1-2026/standings/index.html)から確認できます。直近の試合結果は[関西学生サッカーリーグ1部 10月31日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20261031/)で振り返れます。京都産業大学が勝点26で首位に立っていた5月末の様子は、[関西学生サッカーリーグ1部 5月30日～31日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260530/index.html)と見比べると分かります。<!-- index-lane-link -->
 
+秋の関西1部の動きは、[関西学生サッカーリーグ1部 9月23日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20260923/)で、シーズン終盤に向けた上位の勝点の並びとして確認できます。<!-- index-lane-link -->
+
 ## 東北の強豪 — 仙台大学を八戸学院大学・富士大学が追う
 
 東北地区大学サッカーリーグは1部が8チーム編成で2回戦総当たり、2部が13チーム編成で1回戦総当たりという構成です。2025年度は仙台大学が優勝してインカレ予選ラウンドに出場し、2位に富士大学、3位に八戸学院大学が続きました。

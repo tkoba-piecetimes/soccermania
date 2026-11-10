@@ -36,6 +36,8 @@ JR東日本カップ2026 第100回関東大学サッカーリーグ戦2部の第
 | 11 | [立教大学](../../kanto-2-2026/clubs/rikkyo/index.html) | 21 | -8 |
 | 12 | [専修大学](../../kanto-2-2026/clubs/senshu/index.html) | 15 | -9 |
 
+シーズン中盤の順位の動きを振り返るなら、9月中旬の様子を記録した[関東大学サッカーリーグ戦2部 第15節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec15/)と見比べると、上位と下位の勝点差がどう開いたかが分かります。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東大学サッカー連盟](https://www.jufa-kanto.jp/)
