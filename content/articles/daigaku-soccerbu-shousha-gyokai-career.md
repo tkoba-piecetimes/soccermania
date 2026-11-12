@@ -44,7 +44,7 @@ cta: career
 
 ### 商社以外の業界も含めて比較検討する
 
-商社は人気業界である分、競争も激しくなります。体育会での強みが活かせる業界は商社だけに限りません。[体育会サッカー部出身者に向いている仕事とは？](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-gyokai-erabikata/)や[大学サッカー部出身者は営業職に向いているか](https://soccermania.jp/articles/daigaku-soccerbu-eigyoushoku-career/)もあわせて確認し、業界・企業の選択肢を広げながら比較検討することをおすすめします。民間企業だけでなく公務員という道もあり、警察官・消防官で活きる経験や採用試験の体力試験については[大学サッカー部出身者は公務員に向いている？](https://soccermania.jp/articles/daigaku-soccerbu-koumuin-career/index.html)<!-- index-lane-link -->で解説しています。
+商社は人気業界である分、競争も激しくなります。体育会での強みが活かせる業界は商社だけに限りません。[体育会サッカー部出身者に向いている仕事とは？](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-gyokai-erabikata/)や[大学サッカー部出身者は営業職に向いているか](https://soccermania.jp/articles/daigaku-soccerbu-eigyoushoku-career/)、[大学サッカー部出身者は金融業界に向いている？](https://soccermania.jp/articles/daigaku-soccerbu-kinyu-gyokai-career/)<!-- index-lane-link -->もあわせて確認し、業界・企業の選択肢を広げながら比較検討することをおすすめします。民間企業だけでなく公務員という道もあり、警察官・消防官で活きる経験や採用試験の体力試験については[大学サッカー部出身者は公務員に向いている？](https://soccermania.jp/articles/daigaku-soccerbu-koumuin-career/index.html)<!-- index-lane-link -->で解説しています。
 
 ## まとめ
 

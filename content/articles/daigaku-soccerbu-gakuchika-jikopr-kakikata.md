@@ -23,7 +23,7 @@ cta: shukatsu
 - **工夫・行動**：課題に対して自分が具体的にどんな行動を取ったか
 - **変化・結果**：その行動によって自分やチームにどんな変化が生まれたか
 
-[大学サッカー部のキャプテン・マネージャー経験](https://soccermania.jp/articles/daigaku-soccerbu-captain-manager-career/)のように役職があると書きやすい一方、役職がなくても「チーム内の課題に対して自分がどう向き合ったか」というエピソードであれば、レギュラー・控えを問わず整理できます。
+[大学サッカー部のキャプテン・マネージャー経験](https://soccermania.jp/articles/daigaku-soccerbu-captain-manager-career/)のように役職があると書きやすい一方、役職がなくても「チーム内の課題に対して自分がどう向き合ったか」というエピソードであれば、レギュラー・控えを問わず整理できます。エピソードの土台になる価値観の整理は、[大学サッカー部の経験で「就活の軸」を見つける自己分析のやり方](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-jikobunseki-jiku/)も参考になります。<!-- index-lane-link -->
 
 ## 伝わるガクチカの型「STAR法」で構成する
 

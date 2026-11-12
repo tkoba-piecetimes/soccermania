@@ -52,6 +52,7 @@ cta: listing
 - [大学サッカー部の企業協賛・スポンサー獲得](https://soccermania.jp/articles/daigaku-soccerbu-sponsor-kyousan/)
 - [大学サッカー部の助成金・補助金](https://soccermania.jp/articles/daigaku-soccerbu-joseikin-hojokin/)
 - [大学サッカー部のクラウドファンディングの始め方と成功のポイント](https://soccermania.jp/articles/daigaku-soccerbu-crowdfunding-shikin/)<!-- index-lane-link -->
+- [大学サッカー部のグッズ販売で活動資金をつくる方法](https://soccermania.jp/articles/daigaku-soccerbu-goods-hanbai-shikin/)<!-- index-lane-link -->
 
 運営側の方へ。協賛に関心のある企業とつながる手段のひとつとして、ツナカレでは部活の紹介ページを[無料で掲載](https://lp.tunakare.jp/s01/)できます。
 
