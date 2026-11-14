@@ -850,6 +850,40 @@ def lane_note(code, kind, R):
             f'<a href="{R}articles/{slug}/index.html">{escape(anchor)}</a>で確認できます。</p>')
 
 
+# リーグトップ（/<code>/）だけに効く個別上書き。題名・説明文・H1直下の導入文。
+# 他リーグ・他ページは従来のテンプレートのまま（キーに無いコードは何も変わらない）。
+def _hokushinetsu1_top_intro(lg, R):
+    st = lg["standings"]
+    top = None
+    for entries in st.values():
+        if entries:
+            top = entries[0]
+            break
+    now = ""
+    if top:
+        now = (f'現在の首位は{escape(top["team"])}（勝点{top["points"]}・{top["games"]}試合消化）です。')
+    return (
+        '<p>北信越大学サッカーリーグ1部は、北信越大学サッカー連盟が主催する第54回大会（2026年度）で、'
+        f'{len(lg["teams"])}チームが前期7節・後期7節の2回戦総当たり（全14節）で争います。'
+        '順位は勝点（勝ち3・引き分け1・負け0）の多い順で、勝点が並ぶと得失点差などで決まります。'
+        f'{now}'
+        '下の順位表は試合結果から編集部が集計した参考値なので、公式の発表は'
+        '<a href="https://hufl.info/league/schedule-div1/">北信越大学サッカー連盟の1部日程・結果ページ</a>で確認できます。</p>'
+        f'<p>順位表だけを見たい方は<a href="{R}hokushinetsu-1-2026/standings/index.html">1部の順位表ページ</a>、'
+        f'試合ごとのスコアは<a href="{R}hokushinetsu-1-2026/schedule/index.html">日程・結果ページ</a>へ。'
+        f'1部・2部の構成や入替戦の考え方は<a href="{R}articles/hokushinetsu-university-soccer-league-system/index.html">北信越大学サッカーリーグの仕組み</a>で解説しています。</p>'
+    )
+
+
+LEAGUE_TOP_OVERRIDES = {
+    "hokushinetsu-1-2026": {
+        "title": "北信越大学サッカーリーグ1部 順位表2026｜日程・試合結果",
+        "desc": "北信越大学サッカーリーグ1部（第54回・8チーム）の2026年順位表・日程・試合結果を毎日更新。勝点の決まり方、昇降格の考え方は仕組み解説へ。",
+        "intro": _hokushinetsu1_top_intro,
+    },
+}
+
+
 def build_league(lg, articles):
     code = lg["code"]
     meta, matches, standings = lg["meta"], lg["matches"], lg["standings"]
@@ -867,6 +901,9 @@ def build_league(lg, articles):
 
     body = f'<h1>{escape(league_name)}</h1>'
     body += f'<p class="lead">試合結果・日程・順位表を毎日更新。チーム{len(lg["teams"])}・全{len(matches)}試合。</p>'
+    top_ov = LEAGUE_TOP_OVERRIDES.get(code, {})
+    if top_ov.get("intro"):
+        body += '<section class="league-intro">' + top_ov["intro"](lg, "../") + '</section>'
     if recent:
         body += ('<section><h2>最新の試合結果</h2>'
                  + match_table("".join(match_row(m, L) for m in recent))
@@ -883,9 +920,9 @@ def build_league(lg, articles):
             body += '<section><h2>順位表</h2>' + standings_table(block, entries, L) + '</section>'
     body += system_guide_note(code, R, articles)
     body += lane_note(code, "index", R)
-    write_page(code, page(R, f'{league_name} 試合結果・日程・順位表 | サッカーマニア', body, meta,
+    write_page(code, page(R, top_ov.get("title", f'{league_name} 試合結果・日程・順位表 | サッカーマニア'), body, meta,
                           path=f"{code}/",
-                          desc=f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。',
+                          desc=top_ov.get("desc", f'{league_name}の試合結果・日程・順位表・チーム戦績を毎日更新。'),
                           subnav=sub))
 
     # ---- schedule / standings / teams
