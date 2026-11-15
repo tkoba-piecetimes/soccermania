@@ -11,6 +11,8 @@ data/leagues/<code>/ に正規化JSONとして保存する。
 """
 import json
 import re
+import sys
+import urllib.error
 from datetime import date, datetime
 from pathlib import Path
 
@@ -119,26 +121,46 @@ def parse_matches(html: str, category_label: str, season_start_year: int) -> lis
 
 def fetch_division(bu: int, label: str, year: int = CURRENT_SEASON) -> dict | None:
     matches: list[dict] = []
+    failed: list[str] = []
     for half in (1, 2):
+        name = "前期" if half == 1 else "後期"
         try:
             html = fetch(nittei_url(bu, half, year), encoding="shift_jis")
+        except urllib.error.HTTPError as e:
+            if half == 2 and e.code == 404:
+                # 後期開幕前は日程ページが未公開で404になる（想定内。失敗扱いにしない）
+                print(f"  {label} {name}: 未公開（404）")
+                continue
+            print(f"  {label} {name}: 取得失敗（{e}）")
+            failed.append(name)
+            continue
         except Exception as e:
-            print(f"  {label} {'前期' if half == 1 else '後期'}: 取得失敗（{e}）")
+            print(f"  {label} {name}: 取得失敗（{e}）")
+            failed.append(name)
             continue
         ms = parse_matches(html, label, year)
         matches.extend(ms)
-        print(f"  {label} {'前期' if half == 1 else '後期'}: 試合{len(ms)}件")
-    if not matches:
-        return None
+        print(f"  {label} {name}: 試合{len(ms)}件")
     try:
         rank_html = fetch(rank_url(bu, year), encoding="shift_jis")
         standings = parse_standings(rank_html)
+        if not standings:
+            raise ValueError("順位表を解析できない")
     except Exception as e:
-        print(f"  {label} 順位表: 取得失敗（{e}）", )
+        print(f"  {label} 順位表: 取得失敗（{e}）")
+        failed.append("順位表")
         standings = []
+    if failed:
+        # 前期・後期・順位表のどれかが欠けた不完全なデータで上書きすると、取れなかった分の
+        # 試合ページが消えて404になる（関東で起きた事故と同じ形）。None を返して既存データを残す。
+        print(f"::warning::{label}: {'・'.join(failed)}の取得に失敗したため"
+              f"今回の取得結果は採用せず、リポジトリの既存データを使います", file=sys.stderr)
+        return None
+    if not matches:
+        return None
     return {
         "matches": matches,
-        "standings": {"総合": standings} if standings else {"総合": []},
+        "standings": {"総合": standings},
         "teams": build_teams(matches, slug_for),
         "label": label,
     }
@@ -150,7 +172,9 @@ def main() -> None:
         print(f"-- {label} ({code}) --")
         d = fetch_division(bu, label)
         if d is None:
-            print(f"{code}: データなし（取得失敗の可能性）")
+            kept = (DATA_DIR / code / "matches.json").exists()
+            print(f"::warning::{code}: 取得失敗のため"
+                  f"{'既存データを維持' if kept else '既存データなし'}", file=sys.stderr)
             continue
         out_dir = DATA_DIR / code
         out_dir.mkdir(parents=True, exist_ok=True)
