@@ -179,5 +179,4 @@ JUFAが2026年10月28日時点の参加チームとして公表しているの�
 - [全日本大学サッカー連盟 2024年度第73回大会 試合日程](https://www.jufa.jp/_data/pdf/p_1735479943.pdf)
 - [全日本大学サッカー連盟 2023年度第72回大会 決勝の結果](https://www.jufa.jp/news/news.php?kn=1551)
 - [全日本大学サッカー連盟 2022年度第71回大会 試合日程・結果](https://www.jufa.jp/news/news.php?kn=1348)
-- [ゲキサカ 桐蔭横浜大がインカレ元日決勝を制し初の大学日本一](https://web.gekisaka.jp/news/incolle/detail/%3F376456-376456-fl)
 - [全日本大学サッカー連盟 2021年度第70回大会 決勝の公式記録](https://www.jufa.jp/_data/pdf/p_1640419002.pdf)
