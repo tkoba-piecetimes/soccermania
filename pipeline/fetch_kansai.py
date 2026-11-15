@@ -144,8 +144,14 @@ def fetch_division(bu: int, label: str, year: int = CURRENT_SEASON) -> dict | No
     try:
         rank_html = fetch(rank_url(bu, year), encoding="shift_jis")
         standings = parse_standings(rank_html)
-        if not standings:
-            raise ValueError("順位表を解析できない")
+    except urllib.error.HTTPError as e:
+        standings = []
+        if e.code == 404:
+            # シーズン開幕前後は順位表が未公開で404になる（想定内。日程だけで続行）
+            print(f"  {label} 順位表: 未公開（404）")
+        else:
+            print(f"  {label} 順位表: 取得失敗（{e}）")
+            failed.append("順位表")
     except Exception as e:
         print(f"  {label} 順位表: 取得失敗（{e}）")
         failed.append("順位表")
@@ -178,6 +184,15 @@ def main() -> None:
             continue
         out_dir = DATA_DIR / code
         out_dir.mkdir(parents=True, exist_ok=True)
+        if not d["standings"].get("総合"):
+            # 順位表が0件のときは、既存の順位表があれば空で上書きせず引き継ぐ
+            try:
+                old = json.loads((out_dir / "standings.json").read_text(encoding="utf-8"))
+                if old.get("総合"):
+                    d["standings"] = old
+                    print(f"  {label} 順位表が0件のため既存の順位表を引き継ぎ")
+            except (OSError, ValueError, AttributeError):
+                pass
         played = sum(1 for m in d["matches"] if m["status"] == "played")
         meta = {
             "code": code,
