@@ -273,16 +273,24 @@ def fetch_division(div: int, label: str) -> dict | None:
         print(f"  {label}: インデックスページに節へのリンクが見つからない")
         return None
     matches: list[dict] = []
+    failed: list[str] = []
     for url in urls:
         try:
             html = fetch(url)
         except Exception as e:
             print(f"  {label}: {url} 取得失敗（{e}）")
+            failed.append(url)
             continue
         ms = parse_section(html, label, url)
         matches.extend(ms)
         sec_name = url.rstrip("/").rsplit("/", 1)[-1]
         print(f"  {label} {sec_name}: 試合{len(ms)}件")
+    if failed:
+        # 一部の節だけ取れた不完全なデータで matches.json を上書きすると、取れなかった節の
+        # 試合ページが消えて404になる（2026-11-14 の事故）。None を返して既存データを残す。
+        print(f"::warning::{label}: {len(failed)}/{len(urls)}節の取得に失敗したため"
+              f"今回の取得結果は採用せず、リポジトリの既存データを使います", file=sys.stderr)
+        return None
     return {
         "matches": matches,
         "standings": compute_standings(matches, slug_for),
@@ -297,7 +305,9 @@ def main() -> None:
         print(f"-- {label} ({code}) --")
         d = fetch_division(div, label)
         if d is None or not d["matches"]:
-            print(f"{code}: データなし（取得失敗の可能性）")
+            kept = (DATA_DIR / code / "matches.json").exists()
+            print(f"::warning::{code}: 取得失敗のため"
+                  f"{'既存データを維持' if kept else '既存データなし'}", file=sys.stderr)
             continue
         out_dir = DATA_DIR / code
         out_dir.mkdir(parents=True, exist_ok=True)
