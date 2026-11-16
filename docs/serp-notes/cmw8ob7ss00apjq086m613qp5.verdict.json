@@ -1,0 +1,11 @@
+{"factors":[
+{"factor":"検索意図の一致","layer":"article","finding":"探し方＋申し込みの意図に概ね一致。上位は個別大学の募集要項で、体系解説は少ない","action":"維持"},
+{"factor":"タイトル・スニペット(CTR)","layer":"article","finding":"クリック0・順位11.7。タイトルが長くKW後半に分散、descriptionも一般的","action":"タイトル短縮（KW前方配置）とdescription改稿"},
+{"factor":"網羅性・情報量","layer":"article","finding":"申し込みで実際に書く内容・確認項目が薄い","action":"申し込みメール例文とチェックリストを追加"},
+{"factor":"独自性(E-E-A-T)","layer":"article","finding":"一次情報は一般論のみ","action":"例文・チェックリストで実用性を補強（個別大学の数値は追加しない）"},
+{"factor":"構成・読みやすさ","layer":"article","finding":"流れの説明は十分","action":"H3を追加して流れ内に配置"},
+{"factor":"内部リンク・トピック構造","layer":"article","finding":"関連5記事へのリンク済み","action":"維持"},
+{"factor":"ドメイン評価・被リンク","layer":"media","finding":"順位11.7はドメイン評価と競合する個別大学サイトに依存","action":"記事単体では不可"},
+{"factor":"技術・表示","layer":"article","finding":"問題の兆候なし","action":"変更なし"},
+{"factor":"CV","layer":"media","finding":"cta: noneのまま。導線は媒体共通設計","action":"記事単体では不可"}
+],"summary":"2ページ目付近でクリック0。タイトル・descriptionを刷新し、メール例文とチェックリストで網羅性を補強した。検索意図は変えていない。"}
