@@ -1899,9 +1899,9 @@
   "home_slug": "konan",
   "away_slug": "osaka-gakuin",
   "venue": "甲南大学（ラグビー場兼サッカー場）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1914,9 +1914,9 @@
   "home_slug": "biwako-seikei",
   "away_slug": "osaka-shogyo",
   "venue": "甲南大学（ラグビー場兼サッカー場）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 6,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1929,9 +1929,9 @@
   "home_slug": "momoyama-gakuin",
   "away_slug": "osaka-taiiku",
   "venue": "三木総合防災公園陸上競技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 5,
   "note": ""
  },
  {
@@ -1944,9 +1944,9 @@
   "home_slug": "ritsumeikan",
   "away_slug": "hannan",
   "venue": "三木総合防災公園陸上競技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1959,9 +1959,9 @@
   "home_slug": "kansai-u",
   "away_slug": "kwansei-gakuin",
   "venue": "三木総合防災公園陸上競技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  },
  {
@@ -1974,9 +1974,9 @@
   "home_slug": "kyoto-sangyo",
   "away_slug": "doshisha",
   "venue": "三木総合防災公園陸上競技場",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 0,
   "note": ""
  }
 ]
