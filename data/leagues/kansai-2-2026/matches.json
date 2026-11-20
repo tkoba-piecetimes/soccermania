@@ -1899,9 +1899,9 @@
   "home_slug": "oosakakeizai",
   "away_slug": "kansaifukushi",
   "venue": "関西福祉大学（人工芝G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 1,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1914,9 +1914,9 @@
   "home_slug": "kinki",
   "away_slug": "kansaikokusai",
   "venue": "関西福祉大学（人工芝G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1929,9 +1929,9 @@
   "home_slug": "oosaka",
   "away_slug": "oosakasangyou",
   "venue": "大阪大学（吹田G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 3,
+  "away_score": 0,
   "note": ""
  },
  {
@@ -1944,9 +1944,9 @@
   "home_slug": "kyoutotachibana",
   "away_slug": "ottemongakuin",
   "venue": "大阪大学（吹田G）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 1,
   "note": ""
  },
  {
@@ -1959,9 +1959,9 @@
   "home_slug": "ryuukoku",
   "away_slug": "oosakakokusai",
   "venue": "京都先端科学大学（人工芝Ｇ）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 0,
+  "away_score": 3,
   "note": ""
  },
  {
@@ -1974,9 +1974,9 @@
   "home_slug": "koubegakuin",
   "away_slug": "kyoutosentankagaku",
   "venue": "京都先端科学大学（人工芝Ｇ）",
-  "status": "scheduled",
-  "home_score": null,
-  "away_score": null,
+  "status": "played",
+  "home_score": 2,
+  "away_score": 2,
   "note": ""
  }
 ]
