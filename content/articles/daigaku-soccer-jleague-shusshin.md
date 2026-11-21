@@ -68,7 +68,7 @@ cta: sponsor
 
 出典：[関西学生サッカー連盟 Jリーグ内定選手のお知らせ（2026年度）](https://www.jufa-kansai.jp/games/2026_j_message/)
 
-関西のチームは[関西1部のチーム一覧](https://soccermania.jp/kansai-1-2026/teams/index.html)と[関西2部のチーム一覧](https://soccermania.jp/kansai-2-2026/teams/index.html)から、京都産業大学は[クラブページ](https://soccermania.jp/kansai-1-2026/clubs/kyoto-sangyo/index.html)から確認できます。今季の関西1部の位置づけは、[関西1部の順位表](https://soccermania.jp/kansai-1-2026/standings/index.html)で見られます。
+関西のチームは[関西1部のチーム一覧](https://soccermania.jp/kansai-1-2026/teams/index.html)と[関西2部のチーム一覧](https://soccermania.jp/kansai-2-2026/teams/index.html)から、京都産業大学は[クラブページ](https://soccermania.jp/kansai-1-2026/clubs/kyoto-sangyo/index.html)から確認できます。今季の関西1部の位置づけは、[関西1部の順位表](https://soccermania.jp/kansai-1-2026/standings/index.html)で見られます。関西2部の戦いぶりは、[関西2部 9月23日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20260923/)で試合ごとに確認できます。<!-- index-lane-link -->
 
 ## 東北・北信越：連盟の一覧はなく、個別の発表で確認する
 
