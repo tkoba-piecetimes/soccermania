@@ -57,7 +57,7 @@ cta: shukatsu
 
 体力面での自信や、現場での指示出し・調整力が求められる仕事で、部活動でのポジションリーダー経験などが活きる場合があります。
 
-営業職を検討する場合は[営業職の適性とキャリアを解説した記事](https://soccermania.jp/articles/daigaku-soccerbu-eigyoushoku-career/)、公務員という選択肢は[公務員を目指す場合の記事](https://soccermania.jp/articles/daigaku-soccerbu-koumuin-career/)、主将やマネージャーの経験を活かしたい場合は[主将・マネージャー経験者のキャリアの記事](https://soccermania.jp/articles/daigaku-soccerbu-captain-manager-career/)も参考になります。
+営業職を検討する場合は[営業職の適性とキャリアを解説した記事](https://soccermania.jp/articles/daigaku-soccerbu-eigyoushoku-career/)、公務員という選択肢は[公務員を目指す場合の記事](https://soccermania.jp/articles/daigaku-soccerbu-koumuin-career/)、主将やマネージャーの経験を活かしたい場合は[主将・マネージャー経験者のキャリアの記事](https://soccermania.jp/articles/daigaku-soccerbu-captain-manager-career/)も参考になります。思考力や仮説検証の習慣を活かすコンサル業界については、[サッカー部出身者はコンサル業界に向いているか](https://soccermania.jp/articles/daigaku-soccerbu-consul-gyokai-career/)<!-- index-lane-link -->で業界構造とあわせて解説しています。
 
 このように、営業職以外にも選択肢があります。「体育会系だから営業」という思い込みだけで進路を絞らず、自分がどんな場面で力を発揮してきたかを振り返りながら職種を検討してみてください。
 
