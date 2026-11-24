@@ -36,6 +36,8 @@ cta: sponsor
 | 11 | [大阪大学](../../kansai-2-2026/clubs/oosaka/index.html) | 8 | -12 |
 | 12 | [大阪産業大学](../../kansai-2-2026/clubs/oosakasangyou/index.html) | 7 | -26 |
 
+9月下旬の関西2部の流れは、[関西学生サッカーリーグ2部 9月27日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20260927/)で続きを確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関西学生サッカー連盟](https://www.jufa-kansai.jp/)

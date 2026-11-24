@@ -36,6 +36,8 @@ cta: sponsor
 | 11 | [びわこ成蹊スポーツ大学](../../kansai-1-2026/clubs/biwako-seikei/index.html) | 12 | -7 |
 | 12 | [大阪商業大学](../../kansai-1-2026/clubs/osaka-shogyo/index.html) | 2 | -26 |
 
+シーズン後半の順位の並びは、[関西学生サッカーリーグ1部 10月3日～4日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20261003/)と見比べると変化が分かります。<!-- index-lane-link -->
+
 ## 出典
 
 - [関西学生サッカー連盟](https://www.jufa-kansai.jp/)

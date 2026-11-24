@@ -68,6 +68,8 @@ cta: sponsor
 
 シーズン終盤に近い9月中旬の東北2部の並びは、[東北地区大学サッカーリーグ2部 9月19日の結果まとめ](https://soccermania.jp/articles/review-tohoku-2-20260919/)の順位表と見比べると、昇格戦圏の変化が分かります。その翌週の動きは[東北2部 9月26日～27日の結果まとめ](https://soccermania.jp/articles/review-tohoku-2-20260926/)で確認できます。<!-- index-lane-link -->
 
+入替戦の対象になる東北1部の下位争いは、[東北地区大学サッカーリーグ1部 10月3日の結果まとめ](https://soccermania.jp/articles/review-tohoku-1-20261003/)の順位表で確認すると、1部6位・7位前後の勝点差がつかみやすくなります。<!-- index-lane-link -->
+
 ---
 
 出典：

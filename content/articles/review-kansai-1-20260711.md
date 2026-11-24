@@ -36,6 +36,8 @@ cta: sponsor
 | 11 | [甲南大学](../../kansai-1-2026/clubs/konan/index.html) | 13 | -2 |
 | 12 | [大阪商業大学](../../kansai-1-2026/clubs/osaka-shogyo/index.html) | 2 | -28 |
 
+秋の関西1部の動きは、[関西学生サッカーリーグ1部 10月3日～4日の結果まとめ](https://soccermania.jp/articles/review-kansai-1-20261003/)で続きを確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関西学生サッカー連盟](https://www.jufa-kansai.jp/)

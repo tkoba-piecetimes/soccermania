@@ -38,6 +38,8 @@ JR東日本カップ2026 第100回関東大学サッカーリーグ戦2部の第
 
 首位の産業能率大学（勝点35）の積み上げを振り返るなら、7月11日に勝点26で首位に立っていた[関東大学サッカーリーグ戦2部 第13節の結果と順位表](https://soccermania.jp/articles/review-kanto-2-sec13/index.html)と見比べると、シーズンを通じた順位の動きが分かります。<!-- index-lane-link -->
 
+第20節の少し前の動きは、[関東大学サッカーリーグ戦2部 第17節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec17/)の順位表と見比べると追いやすくなります。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東大学サッカー連盟](https://www.jufa-kanto.jp/)
