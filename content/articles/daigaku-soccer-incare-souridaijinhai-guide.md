@@ -110,6 +110,8 @@ cta: sponsor
 
 北信越リーグの2026年シーズン序盤の戦いぶりを知りたい方は、首位・松本大を含む順位の動きを追える[北信越大学サッカーリーグ1部の4月18日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260418/index.html)もあわせてご覧ください。同じ1部の9月中旬の様子は、[北信越大学サッカーリーグ1部 9月19日～20日の結果まとめ](https://soccermania.jp/articles/review-hokushinetsu-1-20260919/)で確認できます。<!-- index-lane-link -->
 
+全国大会への道だけでなく、シーズン終盤に各地区で行われる昇格・降格の入替戦も見どころです。関東・関西・東北・北信越での違いは、[大学サッカーの入替戦・昇格降格ルールを4地区で比較した記事](https://soccermania.jp/articles/daigaku-soccer-league-nyuukaisen-chiku-hikaku/)にまとめています。<!-- index-lane-link -->
+
 自分が応援するリーグや大学が、夏の総理大臣杯や冬のインカレでどこまで勝ち上がれるのかを追いかけると、リーグ戦だけを見ているときとは違った楽しみ方ができます。日々の[結果まとめ](https://soccermania.jp/articles/index.html)とあわせて、全国大会の行方もぜひチェックしてみてください。
 
 ## よくある疑問

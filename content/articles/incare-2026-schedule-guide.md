@@ -69,7 +69,7 @@ JUFAが2026年10月28日時点の参加チームとして公表しているの�
 | 中国 | IPU・環太平洋大学（2大会連続11回目） |
 | 四国 | 高松大学（2大会連続6回目）、高知大学（5大会ぶり35回目） |
 
-東北・北信越・東海・関西・九州の各代表と、関東の残りの枠は、2026年11月15日時点で公式サイトに掲載されていません。確定した出場校は、JUFAの[インカレのニュースページ](https://www.jufa.jp/news/news_incolle.php)に順次掲載されます。各地域の代表争いは、サッカーマニアの[関東1部の順位表](https://soccermania.jp/kanto-1-2026/standings/)、[関西1部の順位表](https://soccermania.jp/kansai-1-2026/standings/)、[東北1部の順位表](https://soccermania.jp/tohoku-1-2026/standings/)で確認できます。関東1部の終盤戦の様子は、[関東大学サッカーリーグ戦1部 第15節の結果まとめ](https://soccermania.jp/articles/review-kanto-1-sec15/)<!-- index-lane-link -->の順位表からも追えます。
+東北・北信越・東海・関西・九州の各代表と、関東の残りの枠は、2026年11月15日時点で公式サイトに掲載されていません。確定した出場校は、JUFAの[インカレのニュースページ](https://www.jufa.jp/news/news_incolle.php)に順次掲載されます。各地域の代表争いは、サッカーマニアの[関東1部の順位表](https://soccermania.jp/kanto-1-2026/standings/)、[関西1部の順位表](https://soccermania.jp/kansai-1-2026/standings/)、[東北1部の順位表](https://soccermania.jp/tohoku-1-2026/standings/)で確認できます。関東1部の終盤戦の様子は、[関東大学サッカーリーグ戦1部 第15節の結果まとめ](https://soccermania.jp/articles/review-kanto-1-sec15/)<!-- index-lane-link -->の順位表からも追えます。各地区の昇格・降格がどう決まるかは、[大学サッカーの入替戦・昇格降格ルールの4地区比較](https://soccermania.jp/articles/daigaku-soccer-league-nyuukaisen-chiku-hikaku/)で整理しています。<!-- index-lane-link -->
 
 ## 大会方式｜3つのラウンドで優勝を決める
 

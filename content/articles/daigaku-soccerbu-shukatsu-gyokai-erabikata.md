@@ -94,7 +94,7 @@ cta: shukatsu
 
 ### 業界はいつ頃までに絞ればよいですか？
 
-時期に決まりはなく、個人の部活動のスケジュールによっても異なります。まずは自己分析と業界研究を並行して進め、OB訪問やインターンで実際の仕事内容を確かめながら、段階的に絞っていく進め方が考えられます。引退時期との兼ね合いは[引退時期と就活のタイミングの記事](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-intai-timing/)も参考にしてください。
+時期に決まりはなく、個人の部活動のスケジュールによっても異なります。まずは自己分析と業界研究を並行して進め、OB訪問やインターンで実際の仕事内容を確かめながら、段階的に絞っていく進め方が考えられます。OB訪問の依頼の仕方や聞くべき質問は[大学サッカー部員のOB・OG訪問のやり方](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-ob-houmon-yarikata/)<!-- index-lane-link -->にまとめています。引退時期との兼ね合いは[引退時期と就活のタイミングの記事](https://soccermania.jp/articles/daigaku-soccerbu-shukatsu-intai-timing/)も参考にしてください。
 
 ### サッカー関連の仕事に就くには別の対策が必要ですか？
 
