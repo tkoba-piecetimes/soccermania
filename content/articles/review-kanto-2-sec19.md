@@ -40,6 +40,8 @@ JR東日本カップ2026 第100回関東大学サッカーリーグ戦2部の第
 
 さらにさかのぼった7月11日の[関東大学サッカーリーグ戦2部 第13節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec13/index.html)では、産業能率大学が勝点26で首位、流通経済大学が2位という並びでした。<!-- index-lane-link -->
 
+少し前の第16節時点の順位は、[関東大学サッカーリーグ戦2部 第16節の結果まとめ](https://soccermania.jp/articles/review-kanto-2-sec16/)で確認でき、首位争いの変化を比べられます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東大学サッカー連盟](https://www.jufa-kanto.jp/)

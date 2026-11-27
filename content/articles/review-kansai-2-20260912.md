@@ -38,6 +38,8 @@ cta: sponsor
 
 9月下旬の関西2部の流れは、[関西学生サッカーリーグ2部 9月27日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20260927/)で続きを確認できます。<!-- index-lane-link -->
 
+10月上旬にかけての順位の動きは、[関西学生サッカーリーグ2部 10月3日～4日の結果まとめ](https://soccermania.jp/articles/review-kansai-2-20261003/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関西学生サッカー連盟](https://www.jufa-kansai.jp/)

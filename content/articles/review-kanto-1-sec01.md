@@ -38,6 +38,8 @@ JR東日本カップ2026 第100回関東大学サッカーリーグ戦1部の第
 
 開幕から秋までの順位の変化は、[関東大学サッカーリーグ戦1部 第15節の結果まとめ](https://soccermania.jp/articles/review-kanto-1-sec15/)の順位表と見比べると分かります。<!-- index-lane-link -->
 
+シーズン終盤の第14節時点の順位は、[関東大学サッカーリーグ戦1部 第14節の結果まとめ](https://soccermania.jp/articles/review-kanto-1-sec14/)で確認できます。<!-- index-lane-link -->
+
 ## 出典
 
 - [関東大学サッカー連盟](https://www.jufa-kanto.jp/)
